@@ -1,6 +1,6 @@
 # 18F Systems and Communications Protection Policy
 
-## Purpose of Policy
+## 1. Purpose of Policy
 System Communication protection is the process of implementing protective measures both logically and physically to ensure consistent, uninterrupted, and tamper resistant availability of communication channels and data are provided to information systems and users who require access to the data.
 
 The purpose of this policy is to establish the basis for implementing system and communications practices for protecting information systems and data within 18F systems, products and networks.
@@ -8,32 +8,32 @@ The purpose of this policy is to establish the basis for implementing system and
 The 18F program includes a library of security policies that address federal and non-federal requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
 
 This policy is written to include the following
-Application Partitioning
-Security Function Isolation
-Information Remnants
-Denial of Service Protection
-Boundary Protection
-Transmission Confidentiality and Integrity
-Network Disconnect
-Cryptographic Key Establishment and Management
-Cryptographic Protection
-Public Access Protections
-Collaborative Computing
-Public Key Infrastructure Certificates
-Mobile Code
-Voice Over Internet Protocol
-Secure Name / Address Resolution Service (Authoritative Source)
-Architecture and Provisioning for Name / Address Resolution Service
-Protection of Information At Rest
-Session Authenticity
-Fail In Known State
+* Application Partitioning
+* Security Function Isolation
+* Information Remnants
+* Denial of Service Protection
+* Boundary Protection
+* Transmission Confidentiality and Integrity
+* Network Disconnect
+* Cryptographic Key Establishment and Management
+* Cryptographic Protection
+* Public Access Protections
+* Collaborative Computing
+* Public Key Infrastructure Certificates
+* Mobile Code
+* Voice Over Internet Protocol
+vSecure Name / Address Resolution Service  (Authoritative Source)
+* Architecture and Provisioning for Name / * Address Resolution Service
+* Protection of Information At Rest
+* Session Authenticity
+* Fail In Known State
 
-## Scope of Policy
+## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
 Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
-## Policy
+## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
 
 ### Application Partitioning
@@ -112,43 +112,8 @@ The set of clients that can access an authoritative DNS server in a particular r
 ### Fail In Known State
 All  information systems must possess the capability to fail to a defined known-state such as previous snapshots or implement high availability components for  preserving the system state information in failure scenarios
 
-#### 4 Roles and Responsibilities
-Role
-Responsibility
-IT Department
-The safety and security of data on network and the equipment used to run the network infrastructure.
-Table 1. Roles and Responsibilities
-5 Document Control
-Role
-Name
-Title
-Date
-Signature
-Owner
-
-Compliance Manager
-
-
-QC Reviewer
-
-Technical Writer
-
-
-Approver
-
-Senior Director, Security
-
-
-#### Table 2. Document Control
-6 Revision History
-Revision
-Date
-Written/Updated by
-Section(s)
-Summary
-1.0
-June 04, 2015
-
-All
-Initial version of document.
-#### Table 3. Revision History
+### 4. Roles and Responsibilities
+| Role                 | Responsibilities                                                                                     |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| DevOps               | The safety and security of data on network and the equipment used to run the network infrastructure. |
+| Authorizing Official | Ensure that team is in compliance        
