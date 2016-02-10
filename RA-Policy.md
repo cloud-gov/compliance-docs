@@ -13,6 +13,8 @@ This policy is written to include the following:
 ## 2. Scope of Policy
 This policy applies to all 18F employees, contractors and vendors working in non-public areas and facilities where information systems reside. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
 
@@ -37,7 +39,9 @@ The access and use of Information Technology (IT) resources shall be in complian
 * Conduct remediation on legitimate vulnerabilities (Highs within 30 days, Moderates within 90 days, Lows within 120 days) in accordance with an organizational assessment of risk
 * Shares information obtained from the vulnerability scanning process and security control assessments with designated personnel throughout the organization to help eliminate similar vulnerabilities in other information systems (i.e., systemic weaknesses or deficiencies).
 
-### 4. Roles and Responsibilities
-|Roles |Responsibilities|
-|------|-------------------------|
-|SecOps| Perform all risk assessment tasks to meet compliance standards and continuous monitoring of 18F information systems and enterprise networks|
+## 4. Roles and Responsibilities
+|Roles                  |Responsibilities|
+|-----------------------|------------------------------------------------------------------------------------------------------------|
+|Security Operations    | Perform all risk assessment tasks to meet compliance standards and continuous monitoring of 18F information systems and enterprise networks|
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

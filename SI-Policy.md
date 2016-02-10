@@ -1,6 +1,6 @@
 # 18F System and Information Integrity Policy
 
-## Purpose of Policy
+## 1. Purpose of Policy
 Systems and information integrity is the assurance that data and information systems being accessed,  have neither been tampered with altered or compromised through system errors, malicious attacks and unauthorized access during operation and transmission.
 
 The purpose of this policy is to ensure that 18F establishes requirements for a comprehensive program for developing, implementing and maintaining relevant information to support system and information integrity objectives and security posture of the organization.
@@ -19,12 +19,12 @@ This policy is written to include the following:
 * Information Handling and Retention
 * Memory Protection
 
-## Scope of Policy
+## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
-## Policy
+## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
 
 ### Flaw Remediation
@@ -86,7 +86,9 @@ The access and use of Information Technology (IT) resources shall be in complian
 * All information systems must implement forms of data execution prevention and address space layout randomization to protect its memory from unauthorized code execution.
 
 ## 4. Roles and Responsibilities
-|Role                        |Responsibilities
-|----------------------------|----------------------------------------
-|DevOps| Maintain system integrity and protect all network and application services from potential threats to 18F information systems
-|SecOps| Monitors system integrity and threats to all 18F information systems and networks and provide assistance to DevOps for Flaw remediation actions |
+|Roles                  |Responsibilities
+|-----------------------|---------------------------------------------------------------------------------------------------------|
+|Development Operations | Maintain system integrity and protect all network and application services from potential threats to 18F information systems
+|Security Operations    | Monitors system integrity and threats to all 18F information systems and networks and provide assistance to DevOps for Flaw remediation actions |
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

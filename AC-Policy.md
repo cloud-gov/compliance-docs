@@ -10,7 +10,7 @@ The purpose of this policy is to ensure that 18F establishes requirements for a 
 ## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
@@ -98,6 +98,8 @@ Wireless access shall employ cryptography to protect session confidentiality and
 
 ### Roles and Responsibilities
 |Roles                    | Responsibilities
-|-------------------------|----------------------|
-|Security Operations      | Monitor access to the 18F infrastructure and information systems. Review and enforce access controls.|
+|-------------------------|------------------------------------------------------------------------------------------------------|
+|Security Operations      |Monitor access to the 18F infrastructure and information systems. Review and enforce access controls.|
 |Development Operations   |Implement access controls within 18F information systems and network.|
+|Senior Director          |Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance   |Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

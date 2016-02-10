@@ -40,6 +40,8 @@ The Oversight Executive approves the policy.
 Deliberate violations of these policies shall be addressed as per the 18F Code of Conduct Policy, unless an exception has been approved.
 
 ## 5. Roles and Responsibilities
-|Roles                   |Responsibilities|
+|Roles                   |                      Responsibilities|
 |------------------------|--------------------------------------|
 |18f Content Owner       |In addition to drafting and finalizing policies revisions per Sections 4-5 above, the Content Owner is responsible for:  a) Reviewing his or her assigned Corporate Policy documents annually, in conjunction with any significant organizational changes that apply, or more frequently as needed.   b) Developing any additional documents required to communicate content changes to employees affected by the policy|
+|Senior Director         |Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance  |Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

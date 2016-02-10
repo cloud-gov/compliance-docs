@@ -3,6 +3,7 @@
 ## 1. Purpose of Policy
 The greatest disruption to a system comes from the actions of individuals, both intentional and unintentional. Users, designers, implementers, and managers are involved in many important issues in securing the information contained within the 18F program.
 The purpose of this policy is to outline 18F security measures to ensure that employees, contractors, and vendors understand their responsibilities, and are suitable for the roles they are considered for, and reduce the risk of theft, fraud or misuse of 18F systems and information.
+
 This Policy establishes the basis for implementing Personnel Security (PS) practices for protecting information systems and data within 18F systems, products and network.
 
 The 18F program includes a library of policies that address federal and commercial requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
@@ -19,7 +20,7 @@ This policy is written to include the following:
 ## 2. Scope of Policy
 This policy is applicable to all 18F employees, contractors, and vendors. This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
@@ -69,9 +70,11 @@ Ensure that employees, contractors, and third-party users are provided with guid
 * The disciplinary process should not be commenced without prior verification that a security breach has occurred.
 * In serious cases of misconduct, the process should allow for instant removal of duties, access rights, privileges, immediate escorting and removal from the site, or termination, if necessary.
 
-### 4. Roles and Responsibilities
+## 4. Roles and Responsibilities
 |Roles           |Responsibilities|
-|----------------|----------------|
+|------------------------|--------------------------------------------------------------------------------------------------------------|
 |18F Program Management Office (PMO)| Determines security access requirements for all positions Ensures all personnel are trained in the computer security responsibilities and duties associated with their jobs
-|Security Office (SSO)| Monitors adherence to the personnel security policy Ensures that all personnel have undergone background checks and security training
-|Human Resources| Ensures that all personnel have undergone the appropriate background checks|
+|18F Information Security Office (SSO)| Monitors adherence to the personnel security policy Ensures that all personnel have undergone background checks and security training
+|Human Resources        | Ensures that all personnel have undergone the appropriate background checks|
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

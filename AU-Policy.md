@@ -22,6 +22,8 @@ This policy is written to include the following:
 ## 2. Scope of Policy
 This policy applies to all network devices and servers used to process, store, or transmit data at 18F, and the Security infrastructure and processes used to manage and audit data. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
 
@@ -74,18 +76,17 @@ The access and use of Information Technology (IT) resources shall be in complian
 * 18F information systems shall provide the capability to determine whether a given individual took a particular action (e.g., created information, sent a message, approved information [e.g., to indicate concurrence or sign a contract] or received a message).
 
 ### Audit Retention
-* 18F retains audit logs according to Company retention policy to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.
+* 18F retains audit logs according to retention policy to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.
 * The log management framework will provide the capability to retain logs for a minimum 90 days online and one-year offline, with sufficient capacity as to mitigate the risk of exceeding storage space.
 
 ### Audit Generation
-* 18F information systems will provides audit record generation capability for the list of auditable events defined in AU-2 at [Assignment: organization-defined information system components];
-* 18F will allows designated organizational personnel to select which auditable events are to be audited by specific components of the system; and
+* 18F information systems will provides audit record generation capability for the list of auditable events for its information systems and network services
+* 18F will allows designated organizational personnel to select which auditable events are to be audited by specific components of the system
 * 18F generates audit records for the list of audited events defined in AU-2 with the content as defined in AU-3.
 
 ## 4. Roles and Responsibilities
-|Roles                         |Responsibilities            |
-|------------------------------|----------------------------|
-|Security and Risk Oversight Committee (SROC)| Oversight responsibilities related to 18F Policy changes, approving changes and proposed strategies.
-|Security Engineering| Establishment and maintenance of Log management framework
-|Senior Director| Ensuring the Policy is approved, implemented and communicated.|
-|Director of Compliance| Owner of the Policy. Ensuring the Policy meets the compliance requirements.|
+|Roles                         |Responsibilities                                               |
+|------------------------------|---------------------------------------------------------------|
+|Security Engineering          | Establishment and maintenance of log management framework
+|Senior Director               | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance        | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

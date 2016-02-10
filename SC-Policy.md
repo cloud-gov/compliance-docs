@@ -31,7 +31,7 @@ This policy is written to include the following
 ## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
@@ -113,8 +113,9 @@ The access and use of Information Technology (IT) resources shall be in complian
 ### Fail In Known State
 * All  information systems must possess the capability to fail to a defined known-state such as previous snapshots or implement high availability components for  preserving the system state information in failure scenarios
 
-### 4. Roles and Responsibilities
-| Role                 | Responsibilities                                                                                     |
-|----------------------|------------------------------------------------------------------------------------------------------|
-| DevOps               | Ensure the safety and security of data on network and the equipment used to run the network infrastructure. |
-| Authorizing Official | Ensure that team is in compliance        
+## 4. Roles and Responsibilities
+|Roles                  | Responsibilities                                                                                     |
+|-----------------------|------------------------------------------------------------------------------------------------------|
+|DevOps                 | Ensure the safety and security of data on network and the equipment used to run the network infrastructure. |
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

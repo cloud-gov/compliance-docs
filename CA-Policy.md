@@ -20,7 +20,7 @@ This policy is written and includes the following:
 ## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
@@ -64,6 +64,8 @@ The access and use of Information Technology (IT) resources shall be in complian
 * Ensure to document for each internal connection, the interface characteristics, security requirements, and the nature of the information communicated.
 
 ## 4. Roles and Responsibilities
-|Roles              | Responsibilities|
-|-------------------|--------------------------|
-|Security Operations| Responsibilities include following the Risk management framework (RMF) and POA&M management|
+|Roles                 | Responsibilities                                                                           |
+|----------------------|--------------------------------------------------------------------------------------------|
+|Security Operations   | Responsibilities include following the Risk management framework (RMF) and POA&M management|
+|Senior Director       | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance| Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

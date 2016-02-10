@@ -18,7 +18,7 @@ This policy is written to include the following
 ## 2. Scope of Policy
 This policy applies to all 18F employees and contractors working in or with the 18F for Public Sector organization. Failure to comply with this policy may result in disciplinary action, up to and including termination of employment and possible civil and/or criminal penalties under the applicable U.S. laws and regulations.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards
@@ -89,7 +89,9 @@ The access and use of Information Technology (IT) resources shall be in complian
 * Establishes the means for identifying configuration items throughout the system development life cycle and a process for managing the configuration of the configuration items.
 
 #### 4. Roles and Responsibilities
-|Roles               | Responsibilities     |
-|--------------------|----------------------|
+|Roles                 | Responsibilities                                                                        |
+|----------------------|-----------------------------------------------------------------------------------------|
 |Development Operations| Maintains baseline configuration management of information systems and networks for 18F |
-|Security Operations| Reviews configuration settings implemented on the system per established baseline configurations|
+|Security Operations   | Reviews configuration settings implemented on the system per established baseline configurations|
+|Senior Director       | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance| Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

@@ -18,7 +18,7 @@ This policy is written to include the following:
 ## 2. Scope of Policy
 This policy is applicable to all 18F employees, partners, contractors, customers and vendors who use 18F information systems. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 ### Security Awareness Training
@@ -34,10 +34,10 @@ Please see POL-CS-0000.10, Governance Policy for further information on Manageme
 
 ### Security Training Records
 * 18F shall document both basic and role-based security awareness training activities.
-* Individual security training records must be maintained for the entire term of employment and updated on an annual basis for refresher training as required. 
+* Individual security training records must be maintained for the entire term of employment and updated on an annual basis for refresher training as required.
 
 ## 4. Roles and Responsibilities
 |Roles                        |Responsibilities
-|-----------------------------|------------------------------|
-|18F Program Management Office| Determines the
-|18F SSO| Monitors security training records, compliance and oversee audits|
+|-----------------------------|---------------------------------------------------------------|
+|Senior Director              | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance       | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

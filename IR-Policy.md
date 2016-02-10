@@ -3,6 +3,7 @@
 ## 1. Purpose of Policy
 Incident Response (IR) is an organized approach to addressing and managing the aftermath of a security breach or attack (also known as an incident). The goal is to handle the situation in a way that limits damage and reduces recovery time and costs.
 This Policy establishes the basis for implementing an incident response policy and practices for protecting information systems and data within 18F systems, products and networks.
+
 The 18F program includes a library of security policies that address federal and non-federal requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
 
 This policy is written and includes the following:
@@ -17,7 +18,8 @@ This policy is written and includes the following:
 
 ## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
-Please see POL-CS-0000.10, Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
 
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
@@ -70,9 +72,11 @@ Protects the incident response plan from unauthorized disclosure and modificatio
  * Eradicating the information from the contaminated information system or component
  * Identifying other information systems or system components that may have been subsequently contaminated
 
-### 4. Roles and Responsibilities
-|Roles                 |Responsibilities|
-|----------------------|------------------|
-|Development Operations| The safety and security of data on network and the equipment used to run the network infrastructure.|
-|Security Operations| Monitor security posture of the information systems and reports any suspicious activities within the network to the appropriates POCs|
-|Incident Response Team| Designated incident response personal will activate the IPR plan and follow the IR procedures|
+## 4. Roles and Responsibilities
+|Roles                  | Responsibilities|
+|-----------------------|-----------------------------------------------------------------------------------------------------|
+|Development Operations | The safety and security of data on network and the equipment used to run the network infrastructure.|
+|Security Operations    | Monitor security posture of the information systems and reports any suspicious activities within the network to the appropriates POCs|
+|Incident Response Team | Designated incident response personal will activate the IPR plan and follow the IR procedures|
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

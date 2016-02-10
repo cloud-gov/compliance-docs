@@ -19,6 +19,8 @@ This policy is written to include the following:
 ## 2. Scope of Policy
 This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+
 ## 3. Policy
 The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
 
@@ -74,9 +76,11 @@ The access and use of Information Technology (IT) resources shall be in complian
 * 18F information system shall uniquely identify and authenticate non-organizational users (or processes acting on behalf of non-organizational users).
 * Non-organizational users shall include all information system users other than 18F users explicitly covered by IA-2. Users are uniquely identified and authenticated for all accesses other than those accesses explicitly identified and documented by 18F.
 
-### 4. Roles and Responsibilities
-|Roles                 | Responsibilities|
-|----------------------|--------------------------------------|
-|Development Operations| Implement and ensure the security of identity and authentication for 18F information systems.|
-|Security Operations   | Monitor and ensure all identity and authentication mechanisms implemented within the 18F environment meet security requirements|
-|18F Security Office| Provide recommendations, guidance on the identity and authentication management within the 18 organziantion|
+## 4. Roles and Responsibilities
+|Roles                           | Responsibilities|
+|--------------------------------|--------------------------------------|
+|Development Operations          | Implement and ensure the security of identity and authentication for 18F information systems.|
+|Security Operations             | Monitor and ensure all identity and authentication mechanisms implemented within the 18F environment meet security requirements|
+|18F Information Security Office | Provide recommendations, guidance on the identity and authentication management within the 18F organization|
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|

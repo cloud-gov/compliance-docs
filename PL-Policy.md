@@ -45,8 +45,10 @@ The access and use of Information Technology (IT) resources shall be in complian
 * Reviews and updates the information security architecture on a periodic basis to reflect updates in the enterprise architecture
 * Ensures that planned information security architecture changes are reflected in system security plans and organizational procurements/acquisitions.
 
-### 4. Roles and Responsibilities
-|Roles|Responsibilities|
-|----------------------|----------------|
-|Development Operations|Implement the security controls documented within the system security plans and network architecture|
-|Security Operations|Ensure documentation of the 18F information systems and network architecture is complete accurate and meeting the security requirements of policies and standards|
+## 4. Roles and Responsibilities
+|Roles                  | Responsibilities|
+|---------------------- |-----------------------------------------------------------------------------------------------------|
+|Development Operations | Implement the security controls documented within the system security plans and network architecture|
+|Security Operations    | Ensure documentation of the 18F information systems and network architecture is complete accurate and meeting the security requirements of policies and standards|
+|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
+|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|
