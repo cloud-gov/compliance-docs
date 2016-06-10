@@ -5,47 +5,51 @@ Audit and accountability applies to maintaining an accurate audit trail of event
 
 The purpose of this policy is to ensure that 18F establishes requirements for a comprehensive program for developing, implementing and maintaining relevant information to support the audit and accountability objectives and security posture of the organization.
 
-The 18F program includes a library of policies that address federal and commercial requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
+The 18F program includes a library of policies that address federal and commercial requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States business.
 
-This policy is written to include the following:
+This policy includes the following:
+
 *	Auditable Events
 *	Content of Audit Records
+*	Execution of Privileged Functions
 *	Audit Storage Capacity
-*	Response To Audit Processing
-*	Audit Review, Analysis, and Reporting
+*	Audit Processing
+*	Audit Monitoring, Analysis, and Reporting
 *	Audit Reduction and Report Generation
-*	Time Stamps
-*	Protection of Audit Records
-*	Audit Records Retention
+*	Timestamps
+*	Protection of Audit Information
+*	Non-repudiation
+*	Audit Retention
 *	Audit Generation
 
 ## 2. Scope of Policy
-This policy applies to all network devices and servers used to process, store, or transmit data at 18F, and the Security infrastructure and processes used to manage and audit data. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
+This policy applies to all network devices and servers used to process, store, or transmit data at 18F, and the security infrastructure and processes used to manage and audit data. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
 
-Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review and Update processes, and Penalties.
 
 ## 3. Policy
-The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
+The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS), National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO), and 18F policies and standards.
 
 ### Auditable Events
-* 18F defines the list of events the information system must be capable of auditing based on a risk assessment and mission/business needs
+* 18F defines the list of events the information system must be capable of auditing based on a risk assessment and mission/business needs.
 * 18F coordinates the security audit function with other organizational entities requiring audit-related information to enhance mutual support and help guide the selection of auditable events.
-* Security Engineering will be responsible for researching and working with cross-functional teams to implement a centrally managed framework with the capability of collecting information from integrated target sources and indexing data in a centralized location. This framework will provide reasonable control as to prevent rotation or manipulation of the collected log data 18F will provide a rationale for why the list of auditable events are deemed to be adequate to support after-the-fact investigations of security incidents
-* 18F information systems provide the capability to compile audit records from multiple components throughout the system into a system wide, time-correlated audit trail.
+* Security Engineering will be responsible for researching and working with cross-functional teams to implement a centrally managed framework with the capability of collecting information from integrated target sources and indexing data in a centralized location. This framework will provide reasonable control as to prevent rotation or manipulation of the collected log data.
+* 18F will provide a rationale for why the list of auditable events are deemed to be adequate, to support after-the-fact investigations of security incidents.
+* 18F information systems provide the capability to compile audit records from multiple components throughout the system into a system-wide, time-correlated audit trail.
 * 18F information systems provide the capability to manage the selection of events to be audited by individual components of the system.
 
 ### Content of Audit Records
-* 18F information systems must capture sufficient information in audit records to establish what events occurred, the sources of the events and the outcomes of the events.
+* 18F information systems must capture sufficient information in audit records to establish what events occurred, the sources of the events, and the outcomes of the events.
 * Audit record content includes, for most audit records:
- * Access Events
- * Systems and Account Administration Activity
- * Service and Process Starts and Stops
- * Network Traffic Permitted and Denied
- * Suspicious or Malicious Activities or Traffic
- * Physical Access Events
+ * Access events
+ * Systems and account administration activity
+ * Service and process starts and stops
+ * Network traffic permitted and denied
+ * Suspicious or malicious activities or traffic
+ * Physical access events
  * Account creation, modification, disabling, and termination actions
 
-### Execution of privileged functions
+### Execution of Privileged Functions
 * All 18F information systems provide the capability to include additional, more detailed information in the audit records for audit events identified by type, location or subject.
 * All 18F information systems provide the capability to manage the content of audit records generated by individual components throughout the system.
 
@@ -54,10 +58,11 @@ The access and use of Information Technology (IT) resources shall be in complian
 
 ### Audit Processing
 * 18F will ensure automated mechanisms are in place to alert the appropriate personnel in the event of an audit failure or audit storage capacity being reached.
-* 18F information systems must provide a warning when allocated audit record storage volume reaches critical level as defined based on organization requirements (e.g. if the system reaches within 10% of allocated storage).
+* 18F information systems must provide a warning when allocated audit record storage volume reaches a critical level as defined based on organization requirements (e.g. if the system reaches within 10% of allocated storage).
 
-### Audit Monitoring, Analysis and Reporting
-* 18F establishes processes for regularly reviewing audit log information, and reporting security issues if discovered. * Reviews will occur at a minimum of weekly. These processes should be integrated with processes for incident response, in order to ensure standardization and cross-functional collaboration
+### Audit Monitoring, Analysis, and Reporting
+* 18F establishes processes for regularly reviewing audit log information, and reporting security issues if discovered. 
+* Reviews will occur at a minimum of weekly. These processes should be integrated with processes for incident response, in order to ensure standardization and cross-functional collaboration.
 * 18F employs automated mechanisms to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities.
 * 18F employs automated mechanisms to immediately alert security personnel of inappropriate or unusual activities that have security implications.
 
@@ -65,23 +70,23 @@ The access and use of Information Technology (IT) resources shall be in complian
 * 18F information systems provide an audit reduction and report generation capability.
 * 18F information systems provide the capability to automatically process audit records for events of interest based upon selectable event criteria.
 
-### Time Stamps
-* 18F information systems provide time stamps for use in audit record generation. To ensure the accuracy of the time stamp information the authoritative time source will synchronize internal information clocks at least hourly
+### Timestamps
+* 18F information systems provide timestamps for use in audit record generation. To ensure the accuracy of the timestamp information, the authoritative time source will synchronize internal information clocks at least hourly.
 
 ### Protection of Audit Information
-* 18F ensures its information systems protect audit information and audit tools from unauthorized access, modification and deletion. To protect audit information and audit tools log backups will be stored on a system other than the system being audited. The purpose of this requirement is to preserve information to support the review of audit history in the environment
-* Access to the Log Management framework will be relegated to personnel with a demonstrated business need for access by role. Resources who do not have a business justification should not have access.
+* 18F ensures its information systems protect audit information and audit tools from unauthorized access, modification, and deletion. To protect audit information and audit tools, log backups will be stored on a system other than the system being audited. The purpose of this requirement is to preserve information to support the review of audit history in the environment.
+* Access to the log management framework will be relegated to personnel with a demonstrated business need for access by role. Resources who do not have a business justification should not have access.
 
 ### Non-repudiation
-* 18F information systems shall provide the capability to determine whether a given individual took a particular action (e.g., created information, sent a message, approved information [e.g., to indicate concurrence or sign a contract] or received a message).
+* 18F information systems shall provide the capability to determine whether a given individual took a particular action (e.g., created information, sent a message, approved information [e.g., to indicate concurrence or sign a contract], or received a message).
 
 ### Audit Retention
 * 18F retains audit logs according to retention policy to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.
-* The log management framework will provide the capability to retain logs for a minimum 90 days online and one-year offline, with sufficient capacity as to mitigate the risk of exceeding storage space.
+* The log management framework will provide the capability to retain logs for a minimum 90 days online and one year offline, with sufficient capacity as to mitigate the risk of exceeding storage space.
 
 ### Audit Generation
-* 18F information systems will provides audit record generation capability for the list of auditable events for its information systems and network services
-* 18F will allows designated organizational personnel to select which auditable events are to be audited by specific components of the system
+* 18F information systems will provides audit record generation capability for the list of auditable events for its information systems and network services.
+* 18F will allow designated organizational personnel to select which auditable events are to be audited by specific components of the system.
 * 18F generates audit records for the list of audited events defined in AU-2 with the content as defined in AU-3.
 
 ## 4. Roles and Responsibilities
