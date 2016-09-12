@@ -1,4 +1,4 @@
-# Common control policy
+# TTS Common Control Policy
 
 18F has implemented [General Services Administration (GSA)](http://www.gsa.gov)'s formal and documented access control policies. All policies are disseminated to employees and contractors via the [GSA Internal Directives System](http://www.gsa.gov/portal/directives) and through required re-occuring trainings via the [GSA Online University](https://gsaolu.gsa.gov).
 
