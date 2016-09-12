@@ -1,4 +1,4 @@
-# 18F Identification and Authentication Policy
+# Identification and authentication policy
 
 See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action) Chapter 5, _Policy on Technical Controls_, which covers:
 
@@ -9,7 +9,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 ## 1. Purpose
 
-Access to 18F computing resources is granted in a manner that carefully balances restrictions designed to prevent unauthorized access against the need to provide unhindered access to informational assets.
+Balance restrictions designed to prevent unauthorized access against the need to provide unhindered access to informational assets.
 
 ## 2. Scope
 
