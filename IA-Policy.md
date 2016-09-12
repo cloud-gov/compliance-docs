@@ -7,11 +7,11 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 * Identification and Authentication (IA)
 * System and Communications Protection (SC)
 
-## 1. Purpose
+## Purpose
 
 Balance restrictions designed to prevent unauthorized access against the need to provide unhindered access to informational assets.
 
-## 2. Scope
+## Scope
 
 See the **_Applicability_** section of the [GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action).
 

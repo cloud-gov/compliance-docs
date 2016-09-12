@@ -11,7 +11,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 Limit information system access to authorized users or processes acting on behalf of authorized users. The policy also limits the types of actions authorized users are permitted to exercise.
 
-## 2. Scope
+## Scope
 
 See the **_Applicability_** section of the [GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action).
 
