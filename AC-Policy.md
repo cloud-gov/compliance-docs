@@ -9,7 +9,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 ## Purpose
 
-Limit information system access to authorized users or processes acting on behalf of authorized users. The policy also limits the types of actions authorized users are permitted to exercise.
+Limit information system access to authorized users or processes acting on behalf of authorized users. Enforce "least privilege" methodologies for all system actions.
 
 ## Scope
 
@@ -17,4 +17,6 @@ See the **_Applicability_** section of the [GSA IT Security Policy](http://www.g
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Services's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md). 
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md). 
+
+## Procedures
