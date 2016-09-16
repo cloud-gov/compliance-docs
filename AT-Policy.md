@@ -1,43 +1,27 @@
-# 18F Security Awareness and Training Policy
+# Security awareness and training policy
 
-## 1. Purpose of Policy
-The purpose of this policy is to provide governance for:
-* Ongoing security education and training for 18F personnel
-* Associated security awareness and training controls
-* Formal, documented procedures to facilitate security awareness and training.
-* Maintaining currency with recommended security practices, techniques, and technologies
-* Sharing current security-related information including threats, vulnerabilities, and incidents.
+See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action) Chapter 4, _Policy on Operational Controls_, which covers:
 
-The 18F program includes a library of policies that address federal and commercial requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
+* Awareness and Training (AT)
+* Configuration Management (CM)
+* Contingency Planning (CP)
+* Incident Response (IR)
+* Maintenance (MA)
+* Media Protection (MP)
+* Physical and Environmental Protection (PE)
+* Personnel Security (PS)
+* System and Information Integrity (SI)
 
-This policy is written to include the following:
-* Security Awareness Training
-* Role-Based Security Training
-* Security Training Records
+## Purpose
 
-## 2. Scope of Policy
-This policy is applicable to all 18F employees, partners, contractors, customers and vendors who use 18F information systems. This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
+Provide the highest quality training in modern security practices, ensure announcements regarding new risks to information systems circulate immediately, and facilitate collaboration across the Service to develop new technologies or methodologies to compensate risk. 
 
-Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+## Scope
 
-## 3. Policy
-### Security Awareness Training
-* 18F shall provide basic security awareness training to all information system users (including managers, senior executives, and contractors) as part of initial training for new users, when required by system changes, and at least annually thereafter.
-* The security awareness training must include information on recognizing and reporting potential indicators of insider threat.
-* The 18F awareness training program commences with a formal induction process designed to introduce the Acceptable Use Policy and expectations for all personnel before access to information or services is granted. All new employees are required to take and pass on-line quizzes based on the Acceptable Use Policy. The awareness program is consistent, updated and deployed for all employees at least once a year.
+See the **_Applicability_** section of the [GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action).
 
-### Role-Based Security Training
-* The organization provides role-based security training to information system users before authorizing access to the information system or performing assigned duties, when required by information system changes, and at least annually thereafter
- * shall design and apply physical protection guidelines and mechanisms for working in secure areas.
- * 18F shall document, maintain and make available operating procedures for all users who need them.
- * 18F shall implement detection, prevention, and recovery controls; including appropriate user awareness procedures; to protect against malicious code.
+## Policy overlay
 
-### Security Training Records
-* 18F shall document both basic and role-based security awareness training activities.
-* Individual security training records must be maintained for the entire term of employment and updated on an annual basis for refresher training as required.
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## 4. Roles and Responsibilities
-|Roles                        |Responsibilities
-|-----------------------------|---------------------------------------------------------------|
-|Senior Director              | Ensuring the Policy is approved, implemented and communicated.|
-|Director of Compliance       | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|
+## Procedures

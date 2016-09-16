@@ -1,80 +1,27 @@
-# 18F Personnel Security Policy
+# Personnel security
 
-## 1. Purpose of Policy
-The greatest disruption to a system comes from the actions of individuals, both intentional and unintentional. Users, designers, implementers, and managers are involved in many important issues in securing the information contained within the 18F program.
-The purpose of this policy is to outline 18F security measures to ensure that employees, contractors, and vendors understand their responsibilities, and are suitable for the roles they are considered for, and reduce the risk of theft, fraud or misuse of 18F systems and information.
+See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action) Chapter 4, _Policy on Operational Controls_, which covers:
 
-This Policy establishes the basis for implementing Personnel Security (PS) practices for protecting information systems and data within 18F systems, products and network.
+* Awareness and Training (AT)
+* Configuration Management (CM)
+* Contingency Planning (CP)
+* Incident Response (IR)
+* Maintenance (MA)
+* Media Protection (MP)
+* Physical and Environmental Protection (PE)
+* Personnel Security (PS)
+* System and Information Integrity (SI)
 
-The 18F program includes a library of policies that address federal and commercial requirements. These policies guide and govern the actions of 18F employees and contractors in conducting any United States (U.S.) business.
+## Purpose
 
-This policy is written to include the following:
-* Position Categorization
-* Personnel Screening
-* Personnel Termination
-* Personnel Transfer
-* Access Agreements
-* Third-Party Personnel Security
-* Personnel Sanctions
+Reduce the risk of insider threats or internal conspiracies to circumvent the confidentiality, integrity, or availability of information systems.
 
-## 2. Scope of Policy
-This policy is applicable to all 18F employees, contractors, and vendors. This policy applies to all users, systems, networks, components, services and processes in or accessing the 18F Production environment, and all services, applications and products in General Availability.  This includes cloud infrastructure components, leveraged services and other elements used to deliver 18F products and services.
+## Scope
 
-Please see the 18F Governance Policy for further information on Management Commitment, Compliance and Enforcement, Review & Update processes, and Penalties.
+See the **_Applicability_** section of the [GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action).
 
-## 3. Policy
-The access and use of Information Technology (IT) resources shall be in compliance with applicable Federal Information Processing Standards (FIPS) and National Institute of Standards and Technology (NIST) Special Publications, International Organization for Standards (ISO) and 18F policies and standards.
+## Policy overlay
 
-## Position Categorization
-* 18F shall assign a risk designation to all positions and establishes screening criteria for individuals filling those positions. The organization reviews and revises position risk designations once every two years.
-* Management responsibilities must include ensuring that employees, contractors, and third-party users are properly briefed on their information security roles and responsibilities prior to being granted access to sensitive information or information systems.
-Ensure that employees, contractors, and third-party users are provided with guidelines to state security expectations of their role within the organization.
-* Ensure that employees, contractors, and third-party users conform to the terms and conditions of employment, which includes the organization’s information security policy and appropriate methods of working.
-* Ensure that employees, contractors, and third-party users achieve a level of awareness on security relevant to their roles and responsibilities within the organization
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Personnel Screening
-* 18F develops implements and maintains procedures to perform personnel screening in the recruiting process prior to allowing personnel access to the company’s physical facilities and electronic resources. Examples of personnel screening procedures include: who is eligible to screen people, and how, when and why verification checks are carried out; background checks include all relevant privacy, protection of personal data and/or employment based legislation; character references; accuracy and completeness of resumes; identity checks; criminal and credit checks; immigration checks.
-* 18F ensures that every user accessing an information system processing, storing, or transmitting classified information is cleared and indoctrinated to the highest classification level of the information on the system.
-* 18F ensures that every user accessing an information system processing, storing, or transmitting types of classified information which require formal indoctrination, is formally indoctrinated for all of the relevant types of information on the system.
-* Information on all candidates being considered for positions within 18F is collected and handled in accordance with any appropriate legislation existing in the relevant jurisdiction. As appropriate and required by law, candidates are informed beforehand about the screening activities.
-
-## Personnel Termination and Transfer
-* When employment is terminated, 18F
- * terminates information system access
- * conducts exit interviews
- * ensures the return of all organizational information system-related property (e.g., keys, identification cards, building passes)
- * Ensures that appropriate personnel have access to official records created by the terminated employee that are stored on organizational information systems.
-* If a departing employee, contractor or third-party user has known passwords for accounts remaining active, these are changed upon termination of employment, contract, or agreement.
-* In cases where an employee, contractor, or third-party user purchases the organization’s equipment or uses their own personal equipment, procedures should be followed to ensure that all relevant information is transferred to the organization and securely erased from the equipment
-* 18F reviews information systems/facilities access authorizations when personnel are reassigned or transferred to other positions within the organization and initiates appropriate actions (e.g., reissuing keys, identification cards, building passes, closing old accounts, establishing new accounts and changing system access authorizations).
-* Employee terminations and transfers are reviewed at a planned frequency to verify that termination procedures and/or entitlement changes are conducted properly.
-
-## Access Agreements
-* All employees, contractors, and vendors must sign agreements to safeguard sensitive data prior to accessing 18F information resources. The agreements must include the following:
- * Non-Disclosure Agreement
- * Acceptable Use Policy
- * Access Agreement
- * Code of Conduct Policy
-* 18F completes appropriate access agreements for individuals (employees, contractors, and/or other third-parties) requiring access to organizational information before authorizing access to the company’s physical assets and electronic resources. The agreements shall be signed as part of the new hiring process and engaging third parties.
-* 18F retains the agreements above with employee/contractor/user records.
-* 18F reviews and update the agreements at least annually.
-
-## Third-Party Personnel Security
-* 18F shall establish personnel security requirements for third-party providers (e.g., service bureaus, contractors and other organizations providing information system development, information technology services, outsourced applications, network and security management) and monitors provider compliance to ensure adequate security.
-
-## Personnel Sanctions
-* 18F must employ a formal sanctions process for personnel failing to comply with established information security policies and procedures.
-* The gross negligence or willful disclosure of 18F information can result in prosecution for misdemeanor or felony resulting in fines, imprisonment, civil liability, and/or dismissal. Unauthorized personnel are not allowed to see or obtain sensitive data.
-* 18F must define and implement a process to monitor, identify, and sanction employees, contractors, and vendors who fail to comply with 18F security policies and procedures.
-* 18F must notify the 18F Security Office (SSO) of any incidents of non-compliance with 18F security policies and procedures.
-* The disciplinary process should not be commenced without prior verification that a security breach has occurred.
-* In serious cases of misconduct, the process should allow for instant removal of duties, access rights, privileges, immediate escorting and removal from the site, or termination, if necessary.
-
-## 4. Roles and Responsibilities
-|Roles           |Responsibilities|
-|------------------------|--------------------------------------------------------------------------------------------------------------|
-|18F Program Management Office (PMO)| Determines security access requirements for all positions Ensures all personnel are trained in the computer security responsibilities and duties associated with their jobs
-|18F Information Security Office (SSO)| Monitors adherence to the personnel security policy Ensures that all personnel have undergone background checks and security training
-|Human Resources        | Ensures that all personnel have undergone the appropriate background checks|
-|Senior Director        | Ensuring the Policy is approved, implemented and communicated.|
-|Director of Compliance | Owner of the Policy. Ensuring the Policy meets the compliance requirements.|
+## Procedures
