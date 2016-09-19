@@ -26,3 +26,34 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
+cloud.gov's specific configuration management procedures are packaged with the actual code of the cloud.gov system. Below is an overview of our procedures along with citations to controls and relevant GitHub repositories.
+
+### 
+
+The cloud.gov team maintains a [Configuration Management Plan](https://github.com/18F/cg-docs/blob/master/content/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system
+
+See CM-9. 
+
+Cloud Operations encodes cloud.gov's infrastructure into a set of [Terraform](https://www.terraform.io) configuration files. Terraform files are checked into [18F's cloud.gov GitHub repositories](https://github.com/18F?utf8=%E2%9C%93&query=cg), and local git repositories, in order to ensure distributed version control and availability of the code. 
+
+Cloud Operations first provisions the initial infrastructure, Concourse (a continuous integration pipelining tool), into the desired "infrastructure as a service" account, using this [procedure](https://github.com/18F/cg-provision). Concourse then ensures that all configurations of further automated deployments are controlled, whether they are the result of running Terraform or BOSH. 
+
+See CM-2, CM-2(2), CM-2(3), CM-6(1).
+
+Cloud Operations works with relevant stakeholders, decision-makers, and GSA Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked both in GitHub and AWS CloudTrail. Only the System Owner and Cloud Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
+
+See CM-3, CM-4, CM-5, CM-5(1), CM-5(5), CM-7, CM-8, CM-8(1), 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
