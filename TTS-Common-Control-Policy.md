@@ -1,6 +1,6 @@
 # TTS Common Control Policy
 
-18F has implemented [General Services Administration (GSA)](http://www.gsa.gov)'s formal and documented access control policies. All policies are disseminated to employees and contractors via the [GSA Internal Directives System](http://www.gsa.gov/portal/directives) and through required re-occuring trainings via the [GSA Online University](https://gsaolu.gsa.gov).
+18F has implemented [General Services Administration (GSA)](http://www.gsa.gov)'s formal and documented common control policies. All policies are disseminated to employees and contractors via the [GSA Internal Directives System](http://www.gsa.gov/portal/directives) and through required re-occuring trainings via the [GSA Online University](https://gsaolu.gsa.gov).
 
 The GSA Directives Program, under the Executive Secretariat Division in the Office of Administrative Services (OAS), manages GSA's internal directives issuance process and works with GSA's program offices (inclusive of the GSA Office of the Chief Information Officer and the Technology Transformation Service) to ensure policies stay current given any updates to law, regulation, or operational procedures.
 
