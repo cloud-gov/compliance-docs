@@ -25,3 +25,24 @@ See the **_Applicability_** section of the [GSA IT Security Policy](http://www.g
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
+
+Whenever Cloud Operations, or any other team or individual, discovers that information security policies or procedures have been violated, they must immediately follow the 18F incident notification procedures (which notifies GSA Information Security teams) [LINK] and notify the System Owner and information system Authorizing Official via GSA email, separately.
+
+The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional "post-mortem" [LINK] exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official. 
+
+The Authorizing Official is responsible for reviewing the report and is solely responsible for recommending actions to the individual's direct supervisor. If the Authorizing Official is satisfied by the remediations purposed, and the time-lines for implementing the remediations, the Authorizing Official may allow the System Owner to re-enable the individual's access to the information system. Regardless if access is re-enabled, the Authorizing Official must provide a recommendation on further sanctions or action.
+
+Recommendations on sanctions or actions may include one, or many of the below:
+
+* Written warning
+* Required coaching or re-training
+* Improvement plans
+* Re-assignment
+* Formal sanction in the employee's Electronic Official Personnel Folder (eOPF)
+* Termination
+
+The individual's direct supervisor is responsible for concurring or dissenting on any recommendations, and is is responsible for implementation and deadlines for ultimate completion of concurred actions. If applicable, the direct supervisor is also responsible for coordinating with GSA's Office of Human Resources Management (OHRM) or GSA's Office of General Counsel. 
+
+The individual's direct supervisor is also accountable to issue a report to the Authorizing Official on the completion of any actions. If the Authorizing Official is not satisfied by completed actions, either in their quality or the timeliness of their completion, the Authorizing Official can instruct the System Owner to re-terminate the individual's account. 
+
+If the individual in question is part of a professional services or support contract, and not a civil servant, the same procedure is to be followed, with the exception that the Contracting Officer's Representative is informed in the place of the non-existent supervisor.  
