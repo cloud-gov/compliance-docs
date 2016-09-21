@@ -26,7 +26,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-Whenever Cloud Operations, or any other team or individual, discovers that information security policies or procedures have been violated, they must immediately follow the 18F incident notification procedures (which notifies GSA Information Security teams) [LINK] and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
+Whenever Cloud Operations, or any other team or individual, discovers that any GSA, 18F, or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
 
 The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional "post-mortem" [LINK] exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official. 
 
