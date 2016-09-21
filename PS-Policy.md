@@ -14,7 +14,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 ## Purpose
 
-Reduce the risk of insider threats or internal conspiracies to circumvent the confidentiality, integrity, or availability of information systems.
+Reduce the risk of insider threats or internal conspiracies to circumvent the confidentiality, integrity, or availability of information systems. Sanction individuals found violating GSA policies, procedures, or taking any other action that knowingly violates the confidentiality, integrity, or availability of information systems. 
 
 ## Scope
 
