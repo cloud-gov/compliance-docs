@@ -45,4 +45,4 @@ The individual's direct supervisor is responsible for concurring or dissenting o
 
 The individual's direct supervisor is also accountable to issue a report to the Authorizing Official on the completion of any actions. If the Authorizing Official is not satisfied by completed actions, either in their quality or the timeliness of their completion, the Authorizing Official can instruct the System Owner to re-terminate the individual's account. 
 
-If the individual in question is part of a professional services or support contract, and not a civil servant, the same procedure is to be followed, with the exception that the Contracting Officer's Representative is informed in the place of the non-existent supervisor.  
+If the individual in question is part of a professional services or support contract, and not a federal employee, the same procedure is to be followed, with the exception that the Contracting Officer's Representative is informed in the place of the non-existent supervisor.  
