@@ -28,6 +28,10 @@ Initial security categorization is a collaborative and inter-disciplinary activi
 
 See RA-2, RA-3.
 
-Cloud Operations and GSA Information Security work together to scan all of relevant portions of the cloud.gov stack. This includes any customer controls inside of AWS GovCloud, the operating system baseline of AWS EC2 instances, the baseline of containers, the code of Cloud Foundry, and any 18F built or implemented cloud.gov modules. Access to scanning tools, scan results, and logs is broadly shared amongst the cloud.gov team to ensure a rapid response to any findings. Similarly, on-demand access is granted to the Authorizing Official to aide in any systemic understanding of the system's risk posture.
+Cloud Operations and GSA Information Security work together to scan all of relevant portions of the cloud.gov stack. This includes dynamic scanning of any controls the cloud.gov team is responsible for inside of AWS GovCloud, the operating system baseline of AWS EC2 instances, Cloud Foundry modules, 18F built modules, or any other open source software the team has instantiated within the environment to support cloud.gov. Static code analysis is also performed on the 18F built modules.
+
+Note that _customers_ of cloud.gov are responsible for conducting static code analysis on the baseline of the applications they are deploying into cloud.gov containers.
+
+Access to scanning tools, scan results, and logs is broadly shared amongst the cloud.gov team to ensure a rapid response to any findings. Similarly, on-demand access is granted to the Authorizing Official to aide in any systemic understanding of the system's risk posture.
 
 See RA-5, RA-5(1), RA-5(2), RA-5(3), RA-5(5), RA-5(6), RA-5(8).
