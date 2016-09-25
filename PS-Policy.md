@@ -41,7 +41,7 @@ Recommendations on sanctions or actions may include one, or many of the below:
 * Formal sanction in the employee's Electronic Official Personnel Folder (eOPF)
 * Termination
 
-The individual's direct supervisor is responsible for concurring or dissenting on any recommendations, and is responsible for implementation and deadlines for ultimate completion of concurred actions. If applicable, the direct supervisor is also responsible for coordinating with GSA's Office of Human Resources Management (OHRM) or GSA's Office of General Counsel. 
+The individual's direct supervisor is responsible for concurring or dissenting on any recommendations, and is responsible for implementation and deadlines for ultimate completion of concurred actions. If applicable, the direct supervisor is also responsible for coordinating with GSA's Office of Human Resources Management (OHRM) or GSA's Office of General Counsel. All actions and sanctions will be conducted in accordance with [9751.1 CPO _Maintaining Discipline_](https://insite.gsa.gov/portal/content/523318).
 
 The individual's direct supervisor is also accountable to issue a report to the Authorizing Official on the completion of any actions. If the Authorizing Official is not satisfied by completed actions, either in their quality or the timeliness of their completion, the Authorizing Official can instruct the System Owner to re-terminate the individual's account. 
 
