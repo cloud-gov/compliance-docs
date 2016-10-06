@@ -21,7 +21,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-Identity and authentication in cloud.gov, is entirely gated  cloud.gov's User Account and Authentication (UAA) Servers and their integration with GSA SecureAuth. Authentication to the underlying Amazon Web Service (AWS) is through the AWS Identity and Access Management (IAM).
+Identity and authentication in cloud.gov is entirely gated by cloud.gov's User Account and Authentication (UAA) Servers and their integration with GSA SecureAuth. Authentication to the underlying Amazon Web Service (AWS) is through the AWS Identity and Access Management (IAM).
 
 For both UAA and IAM endpoints, user accounts are coupled to their federal government identities, represented by their personal identity verification (PIV) card, and all of the verification that process entails. UAA and IAM require multi-factor authentication (MFA) across the board. MFA devices are segmented between the two services, helping to ensure security through diversity. Further, cloud.gov adopts a "zero-trust" network posture - no networks are trusted, unless valid credentials (inclusive of MFA) are authenticated.
 
