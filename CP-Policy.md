@@ -25,3 +25,5 @@ See the **_Applicability_** section of the [GSA IT Security Policy](http://www.g
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
+
+See https://docs.cloud.gov/ops/contingency-plan/.
