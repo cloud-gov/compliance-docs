@@ -1,4 +1,4 @@
-# Contingency planning
+# Maintenance
 
 See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action) Chapter 4, _Policy on Operational Controls_, which covers:
 
@@ -14,7 +14,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 ## Purpose
 
-Identify scenarios of likely events that would substantively disrupt the confidentiality, integrity, or availability of the information system. Use those scenarios to conduct actual simulations of said disruptions, and use data collected from the simulation to iteratively improve training, methodologies, but above all - improve the automation of our information systems to self-heal from any disruptions.
+Not applicable. cloud.gov is completely virtualized via AWS GovCloud. cloud.gov leverages the Provisional Authorization for AWS GovCloud for all physical maintenance. See below for a discussion of software maintenance.
 
 ## Scope
 
@@ -26,4 +26,4 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-See https://docs.cloud.gov/ops/contingency-plan/.
+Software maintenance on cloud.gov is accomplished via the procedures of [configuration management (CM)](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md), and [system and services acquisition (SA)](https://github.com/18F/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
