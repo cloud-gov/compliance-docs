@@ -26,4 +26,4 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-See https://docs.cloud.gov/ops/contingency-plan/.
+See the [cloud.gov Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).

@@ -26,4 +26,4 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-Software maintenance on cloud.gov is accomplished via the procedures of [configuration management (CM)](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md), and [system and services acquisition (SA)](https://github.com/18F/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
+Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/18F/compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/18F/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
