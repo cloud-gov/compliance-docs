@@ -117,12 +117,6 @@ Customers can review their own application logs by accessing the ELK stack (whic
 ### cloud.gov team
 The Cloud Operations team acts on findings that result from its regular audit process according to its incident response guidelines (https://docs.cloud.gov/ops/security-ir), including notifying GSA Information Security, the System Owner, and the ISSO.
 
-### GSA Information Security
-
-When a credible source to GSA provides information that causes reason to enhance audit activities, GSA will develop and implement an enhanced auditing use-case that will adequately enhance auditing practices in a fashion necessary per the identified threat and following the Incident Reporting Procedures in GSA IT Security Procedural Guide 01-02 (04/07/2015), Incident Response. GSA may also, through analysis pertaining to the GSA environment, provide additional audit measures that will require an increase in review, analysis, and reporting for a necessary.
-
-GSA monitors information security news and alerts for indications of a need to heighten information system security monitoring. Sources such as product vendors, United States Computer Emergency Readiness Team (US-CERT) and other security community resources will be leveraged to provide information on emerging threats and changes to the landscape.  At the agency’s request or the determination of Cloud Operations, the review of audit logs shall be increased and any appropriate changes to audit content collection shall be implemented.
-
 See AU-6.
 
 cloud.gov uses the automated mechanisms CloudTrail, CloudWatch, and Riemann to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. Riemann receives data from multiple sources (see AU-6(a)) and makes that data available for regular auditing.
