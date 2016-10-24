@@ -126,32 +126,23 @@ The Incident Response Guide is stored in GitHub as a public open source file ( h
 See IR-8.
 
 The cloud.gov Incident Response directs cloud.gov team members to watch out for and immediately report any potential security incident, which includes reporting suspected information spills (such as sensitive or classified information in the wrong places).
-### Customer responsibility
-cloud.gov treats all information in customer applications at the same level of potential impact, if cloud.gov is at fault for an information leakage. It is the customer application system owner is responsible for handling information spills within their applications.
+
 In the event of a suspected information spill, cloud.gov team members follow the reporting process in the cloud.gov Incident Response Guide. The first step is to use GSA Gmail to email the GSA Information Security team.
 
 The 18F Open Source Policy practices guide (which cloud.gov follows as part of 18F) at https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information includes a reminder that spilled classified information must be reported via the response process.
 
-### Customer responsibility
-The application system owner is responsible for handling information spills within their customer applications.
 Information spills are a type of security incident that cloud.gov team members (specifically Cloud Operations team members) handle according to the cloud.gov Incident Response Guide, including isolating compromised or contaminated components.
 
-### Customer responsibility
-The application system owner is responsible for handling information spills within their customer applications.
 Information spills are a type of security incident that cloud.gov team members (specifically Cloud Operations team members) handle according to the cloud.gov Incident Response Guide. In the event of security incidents, Cloud Operations coordinates with Infrastructure and GSA Information Security to identify and implement the appropriate ways to fix the incident. In the case of an information spill, Cloud Operations, Infrastructure, and GSA Information Security would work together to appropriately eradicate the information. The method would depend on the affected system component.
 
-
-### Customer responsibility:
-The application system owner is responsible for handling information spills within their customer applications.
 In the event of an information spill, Cloud Operations coordinates with Infrastructure and GSA Information Security to identify any other affected components or systems and handle them.
-
-### Customer responsibility 
-The application system owner is responsible for handling information spills within their customer applications.
 
 The last step in the cloud.gov IR process, after the incident is resolved, is to conduct a retrospective (also called a postmortem) where the team discusses what they learned and identifies ways to prevent the problem in the future. This is part of the response to an information spill.
 
 ### Customer responsibility
-The Application System Owner is responsible for handling information spills within their customer applications.
+cloud.gov treats all information in customer applications at the same level of potential impact, if cloud.gov is at fault for an information leakage. 
+
+Customer application system owners are responsible for handling information spills within their own applications.
 
 See IR-9.
 
