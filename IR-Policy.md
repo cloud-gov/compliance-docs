@@ -139,10 +139,7 @@ In the event of an information spill, Cloud Operations coordinates with Infrastr
 
 The last step in the cloud.gov IR process, after the incident is resolved, is to conduct a retrospective (also called a postmortem) where the team discusses what they learned and identifies ways to prevent the problem in the future. This is part of the response to an information spill.
 
-### Customer responsibility
-cloud.gov treats all information in customer applications at the same level of potential impact, if cloud.gov is at fault for an information leakage. 
-
-Customer application system owners are responsible for handling information spills within their own applications.
+cloud.gov treats all information in customer applications at the same level of potential impact, if cloud.gov is at fault for an information leakage. Customer application system owners are responsible for handling information spills within their own applications.
 
 See IR-9.
 
