@@ -57,6 +57,7 @@ Cloud Operations always obtains complete documentation, including administrator 
 See SA-5. 
 
 cloud.gov applies security best practices, including but not limited to:
+
 1.	Representing the entire system as “code”, so all changes and side effects can be quickly identified
 2.	Deploying the system via automated scripts and pipelines, ensuring no mistakes are made in instantiation
 3.	Minimizing the network surface area, applying security controls, isolating applications and data in containers, and encrypting connections.
