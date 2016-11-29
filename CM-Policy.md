@@ -30,7 +30,7 @@ cloud.gov's specific configuration management procedures are packaged with the a
 
 ### 
 
-The cloud.gov team maintains a [Configuration Management Plan](https://github.com/18F/cg-docs/blob/master/content/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system
+The cloud.gov team maintains a [Configuration Management Plan](https://github.com/18F/cg-site/blob/master/content/docs/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system
 
 See CM-9. 
 
