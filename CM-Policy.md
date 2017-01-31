@@ -14,7 +14,7 @@ See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId
 
 ## Purpose
 
-Always deploy information systems into a known state before instantiation, and to maintain information systems in an immutable state as much as feasible. To the greatest degree possible, the configuration of systems should not be altered after they are deployed - they should be rebuilt and replaced from a known and secure baseline state.
+Always deploy information systems into a known state before instantiation, and to maintain information systems in an immutable state as much as feasible. To the greatest degree possible, the configuration of systems should not be altered after they are deployed — they should be rebuilt and replaced from a known and secure baseline state.
 
 ## Scope
 
