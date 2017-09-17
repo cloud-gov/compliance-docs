@@ -1,6 +1,6 @@
 # System and information integrity policy
 
-See [CIO P 2100.1J – GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -18,7 +18,7 @@ Ensures information systems have not been compromised through system errors, mal
 
 ## Scope
 
-See the **_Applicability_** section of the [GSA IT Security Policy](http://www.gsa.gov/portal/mediaId/129634/fileName/CIO_21001J_CHGE_1_GSA_Information_Technology_(IT)_Security_Policy_(Posted_Version_4-28-2016).action).
+See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
