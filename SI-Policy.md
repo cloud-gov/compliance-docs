@@ -1,6 +1,6 @@
 # System and information integrity policy
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -12,6 +12,8 @@ See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData
 * Personnel Security (PS)
 * System and Information Integrity (SI)
 
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+
 ## Purpose
 
 Ensures information systems have not been compromised through system errors, malicious attacks, or unauthorized access during operation and transmission.
@@ -22,7 +24,7 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md). 
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
 
@@ -49,15 +51,18 @@ See SI-3, SI-3 (1), SC-3 (2), SC-3 (7).
 The Cloud Operations team monitors the cloud.gov virtual infrastructure to detect potential attacks and intrusions from internal and external sources, including using automated monitoring tools. Cloud Operations monitors for attacks, indicators of potential attacks, and unauthorized connections, as well as monitoring inbound and outbound communications traffic for unusual or unauthorized activities or conditions.
 
 All potential incidents identified by these tools are automatically processed through a centralized system that sends the information to a database and a centralized notification system.
-The cloud.gov Program Manager and System Owner ensure intrusion and monitoring tools are protected from unauthorized access by only granting access to certain members from the Cloud Operations team. All monitoring and intrusion information data is protected by limiting accounts to authorized privileged users only and is maintained in secured repositories for review by those members.
-The cloud.gov team uses additional sources such as Pivotal, US-CERT Advisories, OMB Mandates, commercial and open source security communities, and other sources to provide indication of increased risk to organizational operations and assets, individuals, other organizations.
-See SI-4, SI-4 (1), SI-4 (2), SI-4 (4), SI-4 (5), SI-4 (14), SI-4 (16), SI-4 (23).
-When the cloud.gov team receives security directives from GSA Information Security, Cloud Operations implements the directives in accordance with the requested time frames, or notifies the issuing organization of the degree of noncompliance.
-See SI-5.
-cloud.gov verifies the correct operation of services that detect malicious code, viruses, file integrity, network traffic, and security compliance of the OS using a continuous integration tool (Concourse) and automated monitoring tools. The Cloud Operations team is notified of a failure in security verification via PagerDuty.See SI-6, SI-7, SI-7 (1), SI-7 (7).
+
+The cloud.gov Program Manager and System Owner ensure intrusion and monitoring tools are protected from unauthorized access by only granting access to certain members from the Cloud Operations team. All monitoring and intrusion information data is protected by limiting accounts to authorized privileged users only and is maintained in secured repositories for review by those members.
+The cloud.gov team uses additional sources such as Pivotal, US-CERT Advisories, OMB Mandates, commercial and open source security communities, and other sources to provide indication of increased risk to organizational operations and assets, individuals, other organizations.
+See SI-4, SI-4 (1), SI-4 (2), SI-4 (4), SI-4 (5), SI-4 (14), SI-4 (16), SI-4 (23).
+When the cloud.gov team receives security directives from GSA Information Security, Cloud Operations implements the directives in accordance with the requested time frames, or notifies the issuing organization of the degree of noncompliance.
+See SI-5.
+cloud.gov verifies the correct operation of services that detect malicious code, viruses, file integrity, network traffic, and security compliance of the OS using a continuous integration tool (Concourse) and automated monitoring tools. The Cloud Operations team is notified of a failure in security verification via PagerDuty.
+
+See SI-6, SI-7, SI-7 (1), SI-7 (7).
 
 All inputs passed to CLI interpreters are pre-screened to prevent the content from being unintentionally interpreted as commands.
-All user input submitted via web forms is sanitized to prevent it being interpreted as a system command.
-See SI-10.
-PagerDuty sends cloud.gov alerts only to a limited set of cloud.gov team members who have privileged access to cloud.gov components (System Owner, Program Manager, Cloud Operations team members). This PagerDuty configuration is the responsibility of the Program Manager, who may delegate this to Cloud Operations team members.
-See SI-11.
+All user input submitted via web forms is sanitized to prevent it being interpreted as a system command.
+See SI-10.
+PagerDuty sends cloud.gov alerts only to a limited set of cloud.gov team members who have privileged access to cloud.gov components (System Owner, Program Manager, Cloud Operations team members). This PagerDuty configuration is the responsibility of the Program Manager, who may delegate this to Cloud Operations team members.
+See SI-11.
