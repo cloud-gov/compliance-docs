@@ -1,6 +1,6 @@
 # Personnel security
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -11,6 +11,8 @@ See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData
 * Physical and Environmental Protection (PE)
 * Personnel Security (PS)
 * System and Information Integrity (SI)
+
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
 ## Purpose
 
@@ -32,17 +34,17 @@ See PS-2.
 
 For personnel screening, we use the OPM process.
 
-See PS-3. 
+See PS-3.
 
 Review of ongoing operational need for current logical and physical access by individuals are initiated and facilitated by the System Owner and Program Manager. The cloud.gov System Owner or Program Manager modifies permissions granted to individuals to correspond any changes in the individual requirements. 18F notifies the cloud.gov System Owner or Program Manager within 5 days of a formal transfer action. The cloud.gov System Owner or Program Manager initiates the revoking process within the same day of an individual being transferred outside of the team.
 
-Retrieval of all information system-related property which includes HDPS-12 cards, authentication tokens, mobile devices, laptops, etc. is a common control provided by GSA. cloud.gov revokes privileged access if an individual is reassigned or transferred outside of the team. 
+Retrieval of all information system-related property which includes HDPS-12 cards, authentication tokens, mobile devices, laptops, etc. is a common control provided by GSA. cloud.gov revokes privileged access if an individual is reassigned or transferred outside of the team.
 
 See PS-5.
 
 Since cloud.gov is provided by a federal agency to other agencies, 18F/GSA signs standard US Treasury forms (7600A and 7600B) to create inter-agency agreements (IAAs) that allow other agencies to access and use cloud.gov. The 18F Agreements team develops agreement text with the GSA Office of General Counsel (OGC) to ensure the boilerplate of all cloud.gov access agreements meet all legal, regulatory, policy, and Executive Order requirements.
 
-The System Owner reviews all access agreements at least yearly, or upon request from 18F Agreements, GSA Information Security, or OGC. 18F/GSA requires that all agencies have an active, signed, and fully-funded agreement to maintain access and use of the system. 
+The System Owner reviews all access agreements at least yearly, or upon request from 18F Agreements, GSA Information Security, or OGC. 18F/GSA requires that all agencies have an active, signed, and fully-funded agreement to maintain access and use of the system.
 
 See PS-6.
 
@@ -70,7 +72,7 @@ The individual's direct supervisor is responsible for concurring or dissenting o
 
 The individual's direct supervisor is also accountable to issue a report to the Authorizing Official on the completion of any actions. If the Authorizing Official is not satisfied by completed actions, either in their quality or the timeliness of their completion, the Authorizing Official can instruct the System Owner to re-terminate the individual's account.
 
-If the individual in question is part of a professional services or support contract, and not a federal employee, the same procedure is to be followed, with the exception that the Contracting Officer's Representative is informed in the place of the non-existent supervisor.  
+If the individual in question is part of a professional services or support contract, and not a federal employee, the same procedure is to be followed, with the exception that the Contracting Officer's Representative is informed in the place of the non-existent supervisor.
 
 See PS-8 and PS-4.
 

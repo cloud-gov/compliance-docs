@@ -1,12 +1,14 @@
 # Risk assessment policy
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 3, _Policy on Management Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 3, _Policy on Management Controls_, which covers:
 
 * Certification, Accreditation, and Security Assessments (CA)
 * Planning (PL)
 * Program Management (PM)
 * Risk Assessment (RA)
 * System and Services Acquisition (SA)
+
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
 ## Purpose
 
@@ -22,7 +24,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-All GSA teams, being part of a federal agency, follow the risk assessment and management process outlined in [NIST Special Publication (SP) 800-37](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r1.pdf), _Guide for Applying the Risk Management Framework to Federal Information Systems_.  
+All GSA teams, being part of a federal agency, follow the risk assessment and management process outlined in [NIST Special Publication (SP) 800-37](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r1.pdf), _Guide for Applying the Risk Management Framework to Federal Information Systems_.
 
 Initial security categorization is a collaborative and inter-disciplinary activity, with all final decisions made by the Authorizing Official. Risk assessment is similarly cross-functional, with the Cloud Operations team being primarily responsible, as directed by the Program Manager. GSA Information Security teams are consulted throughout, and the Authorizing Official seeks concurrence from the GSA Chief Information Security Officer whenever possible. The Authorizing Official seeks to minimize any need to issue waivers or risk acceptances from GSA IT Security policy (see Chapter 1, Section 5) that do not have concurrence from the GSA Chief Information Security Officer.
 

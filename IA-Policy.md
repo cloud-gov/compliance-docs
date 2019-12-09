@@ -1,11 +1,13 @@
 # Identification and authentication policy
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 5, _Policy on Technical Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 5, _Policy on Technical Controls_, which covers:
 
 * Access Control (AC)
 * Audit and Accountability (AU)
 * Identification and Authentication (IA)
 * System and Communications Protection (SC)
+
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
 ## Purpose
 

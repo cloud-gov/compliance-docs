@@ -1,6 +1,6 @@
 # Incident response
 
-See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData?mediaId=164806) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
 
 * Awareness and Training (AT)
 * Configuration Management (CM)
@@ -11,6 +11,8 @@ See [CIO 2100.1K – GSA IT Security Policy](https://gsa.gov/portal/getMediaData
 * Physical and Environmental Protection (PE)
 * Personnel Security (PS)
 * System and Information Integrity (SI)
+
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
 ## Purpose
 
@@ -37,7 +39,7 @@ The Program Manager requires all Cloud Operations team members to take the incid
 
 See IR-2.
 
-The cloud.gov team, as directed by the Program Manager, creates test plans and exercises in accordance to NIST 800-61, and presents these to the cloud.gov Authorizing Official for their approval. 
+The cloud.gov team, as directed by the Program Manager, creates test plans and exercises in accordance to NIST 800-61, and presents these to the cloud.gov Authorizing Official for their approval.
 
 cloud.gov tests its incident response capabilities with an annual table top exercise. The test takes the form of a teleconference (GSA Google Hangout) meeting where a security specialist (such as the Program Manager, a Cloud Operations team member, or another security specialist from 18F) guides the Cloud Operations team through a role-playing exercise with a simulated potential security incident. The team takes notes throughout the test, and afterward the team discusses the test and identifies weaknesses to fix with additional training or process improvements. The team files and tracks improvements with GitHub issues.
 
