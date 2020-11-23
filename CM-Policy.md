@@ -32,11 +32,11 @@ cloud.gov's specific configuration management procedures are packaged with the a
 
 ###
 
-The cloud.gov team maintains a [Configuration Management Plan](https://github.com/18F/cg-site/blob/master/content/docs/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system.
+The cloud.gov team maintains a [Configuration Management Plan](https://github.com/cloud-gov/cg-site/blob/master/content/docs/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system.
 
 See CM-9.
 
-Cloud Operations first provisions the initial infrastructure tool, Concourse (a continuous integration pipelining tool), into the desired "infrastructure as a service" account, using this [procedure](https://github.com/18F/cg-provision). Concourse then ensures that all configurations of further automated deployments are controlled, whether they are the result of running Terraform or BOSH.
+Cloud Operations first provisions the initial infrastructure tool, Concourse (a continuous integration pipelining tool), into the desired "infrastructure as a service" account, using this [procedure](https://github.com/cloud-gov/cg-provision). Concourse then ensures that all configurations of further automated deployments are controlled, whether they are the result of running Terraform or BOSH.
 
 Cloud Operations encodes cloud.gov's infrastructure into a set of [Terraform](https://www.terraform.io) configuration files. Terraform files are checked into [18F's cloud.gov GitHub repositories](https://github.com/18F?utf8=%E2%9C%93&query=cg), and local git repositories, in order to ensure distributed version control and availability of the code.
 

@@ -30,7 +30,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at 18F.
 
-The cloud.gov team onboarding checklist (https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
+The cloud.gov team onboarding checklist (https://github.com/cloud-gov/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
 
 This training is a meeting reviewing and explaining the cloud.gov IR Guide (https://docs.cloud.gov/ops/security-ir/) and discussing questions and examples. The team takes notes on the training, stored in a Google Doc in the cloud.gov team Google Drive folder. The team records attendance in that document.
 
