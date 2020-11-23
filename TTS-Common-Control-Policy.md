@@ -24,7 +24,7 @@ The GSA Chief Information Security Officer is ultimately responsible for these p
 
 ## Coordination 
 
-GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, especially the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS Solutions, an office of TTS, is home to multiple infrastructure and security experts. Implementations, and recommendations for policy additions and improvements, are constantly coordinated between the two teams. 
+GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, especially the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS is home to multiple infrastructure and security experts, so implementations, and recommendations for policy additions and improvements, are constantly coordinated between the two teams. 
 
 ## Compliance
 
@@ -32,4 +32,4 @@ The TTS Technology Portfolio Director is ultimately responsible for ensuring tha
 
 ## Reviews
 
-GSA Information Security and TTS Technology Portfolio reviews all policies and procedures when new ATOs are required, or once every 3 years, whichever comes first. The teams also review modifications to policies and procedures when modifications become necessary due to changes in law, regulation, or operations.
+GSA Information Security and the TTS Technology Portfolio review all policies and procedures when new ATOs are required, or once every 3 years, whichever comes first. The teams also review modifications to policies and procedures when modifications become necessary due to changes in law, regulation, or operations.
