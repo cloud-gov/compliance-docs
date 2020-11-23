@@ -34,5 +34,6 @@ Assessments of 18F operations are performed in tandem with vulnerability scannin
 
 See CA-2, CA-2(1), CA-2(2), CA-2(3), CA-5, CA-7, CA-7(1), CA-8, CA-8(1).
 
+The FedRAMP JAB through the program management office (PMO) is the Authorizing Official (AO) for cloud.gov.
 
-See CA-6, CA-9.
+See CA-6
