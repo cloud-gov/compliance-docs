@@ -16,7 +16,7 @@ All GSA employees and contracts are subject to these policies.
 
 ## Roles and responsibilities
 
-The GSA Office of the Chief Information Security Officer, otherwise known as GSA Information Security, is responsible for ensuring that all employees and contracts are familiar and trained in these policies, and to ensure that appropriate procedures are established and tested. The TTS Technology Portfolio Director acts as the liaison between GSA Information Security and TTS products, including cloud.gov. The Cloud Operations team is responsible for all procedures and implementations within cloud.gov.
+The GSA Office of the Chief Information Security Officer, otherwise known as GSA Information Security, is responsible for ensuring that all employees and contracts are familiar and trained in these policies, and to ensure that appropriate procedures are established and tested. The TTS Technology Portfolio Director acts as the liaison between GSA Information Security and TTS programs, including cloud.gov. The Cloud Operations team is responsible for all procedures and implementations within cloud.gov.
 
 ## Management commitment
 
@@ -24,7 +24,7 @@ The GSA Chief Information Security Officer is ultimately responsible for these p
 
 ## Coordination
 
-GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, including the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS Technology Portfolio is home to multiple infrastructure and security experts, so implementations, and recommendations for policy additions and improvements, are constantly coordinated between GSA Information Security, TTS Technology Portfolio, and cloud.gov.
+GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, including the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS is home to multiple infrastructure and security experts, so implementations, and recommendations for policy additions and improvements, are constantly coordinated between GSA Information Security, TTS Technology Portfolio, and cloud.gov.
 
 ## Compliance
 
