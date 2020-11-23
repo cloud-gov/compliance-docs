@@ -16,19 +16,19 @@ All GSA employees and contracts are subject to these policies.
 
 ## Roles and responsibilities
 
-The GSA Office of the Chief Information Security Officer, otherwise known as GSA Information Security, is responsible for ensuring that all employees and contracts are familiar and trained in these policies, and to ensure that appropriate procedures are established and tested. The Cloud Operations team is responsible for all procedures and implementations.
+The GSA Office of the Chief Information Security Officer, otherwise known as GSA Information Security, is responsible for ensuring that all employees and contracts are familiar and trained in these policies, and to ensure that appropriate procedures are established and tested. The TTS Technology Portfolio Director acts as the liaison between GSA Information Security and TTS products, including cloud.gov. The Cloud Operations team is responsible for all procedures and implementations within cloud.gov.
 
 ## Management commitment
 
-The GSA Chief Information Security Officer is ultimately responsible for these policies. 
+The GSA Chief Information Security Officer is ultimately responsible for these policies.
 
-## Coordination 
+## Coordination
 
-GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, especially the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS is home to multiple infrastructure and security experts, so implementations, and recommendations for policy additions and improvements, are constantly coordinated between the two teams. 
+GSA Information Security works in close coordination and collaboration with all of the Services of the GSA, including the [Technology Transformation Service (TTS)](https://www.gsa.gov/tts). TTS Technology Portfolio is home to multiple infrastructure and security experts, so implementations, and recommendations for policy additions and improvements, are constantly coordinated between GSA Information Security, TTS Technology Portfolio, and cloud.gov.
 
 ## Compliance
 
-The TTS Technology Portfolio Director is ultimately responsible for ensuring that the procedures of all TTS systems, including cloud.gov, adhere to these policies. The TTS Technology Portfolio Director accepts the risk of operating all Low and Moderate impact systems as the Authorizing Official, and reviews for compliance before granting an authority to operate (ATO).
+The cloud.gov System Owner is ultimately responsible for ensuring that the procedures within cloud.gov adhere to these policies, and in ensuring cloud.gov maintains its authorization status with the FedRAMP JAB. The FedRAMP program management office (PMO) acts as the Authorizing Official for cloud.gov.
 
 ## Reviews
 
