@@ -1,12 +1,13 @@
 # Security planning
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 3, _Policy on Management Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Certification, Accreditation, and Security Assessments (CA)
-* Planning (PL)
-* Program Management (PM)
-* Risk Assessment (RA)
-* System and Services Acquisition (SA)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * PL-1, PL-8
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * PL-2, PL-8
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * PL-2
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -20,7 +21,7 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
 
@@ -38,9 +39,9 @@ Using the most current FedRAMP SSP template, 18F developed a system security pla
 18F distributes copies of the cloud.gov security plan and communicates subsequent changes to the plan to the cloud.gov System Owner, ISSO, ISSM, AO and other designated members within the 18F staff and agency.
 The Information Security Officer, in conjunction with key 18F management officials, reviews the cloud.gov SSP at least annually or whenever there is a significant change to the information system.
 The Information Security Officer updates the cloud.gov SSP to address changes to the platform and its network of operation or problems identified during plan implementation or security control assessments, and thereafter whenever a significant change occurs.
-The Information Security Officer protects the security plan from unauthorized modification by maintaining it as a write-access-controlled Google Doc or alternatively in a version-controlled documentation repository (https://github.com/18F/cg-compliance ) that can only be modified by designated members from 18F and the agency.
+The Information Security Officer protects the security plan from unauthorized modification by maintaining it as a write-access-controlled Google Doc or alternatively in a version-controlled documentation repository (https://github.com/cloud-gov/cg-compliance ) that can only be modified by designated members from 18F and the agency.
 
-The cloud.gov team intentionally makes most of the system security plan publicly available as open source documents in 18F repositories (including https://github.com/18F/cg-compliance and https://github.com/18F/compliance-docs ). We follow 18F’s Open Source Policy (https://github.com/18F/open-source-policy/blob/master/policy.md ): our non-sensitive work should be public and open source whenever possible. The cloud.gov team does not share sensitive information (such as PII that may be in the SSP) publicly, and follows 18F guidance around this point: https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information
+The cloud.gov team intentionally makes most of the system security plan publicly available as open source documents in 18F repositories (including https://github.com/cloud-gov/cg-compliance and https://github.com/cloud-gov/cg-compliance-docs ). We follow 18F’s Open Source Policy (https://github.com/18F/open-source-policy/blob/master/policy.md ): our non-sensitive work should be public and open source whenever possible. The cloud.gov team does not share sensitive information (such as PII that may be in the SSP) publicly, and follows 18F guidance around this point: https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information
 
 See PL-2.
 
@@ -74,3 +75,13 @@ The cloud.gov Program Manager ensures that planned aspects of the cloud.gov secu
 
 
 See PL-8.
+
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/PL-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

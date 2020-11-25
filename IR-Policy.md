@@ -1,16 +1,17 @@
 # Incident response
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * IR-1
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * IR-2, IR-3, IR-8, IR-9
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * IR-4, IR-5, IR-8
+* Chapter 6, _Policy for Respond Function_, which covers:
+  * IR-3, IR-4, IR-5, IR-8
+* Chapter 7, _Policy for Recover Function_, which covers:
+  * IR-4, IR-8
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -24,13 +25,13 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
 
 The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at 18F.
 
-The cloud.gov team onboarding checklist (https://github.com/18F/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
+The cloud.gov team onboarding checklist (https://github.com/cloud-gov/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
 
 This training is a meeting reviewing and explaining the cloud.gov IR Guide (https://docs.cloud.gov/ops/security-ir/) and discussing questions and examples. The team takes notes on the training, stored in a Google Doc in the cloud.gov team Google Drive folder. The team records attendance in that document.
 
@@ -91,3 +92,12 @@ See IR-9, IR-9 (1), IR-9 (2), IR-9 (3).
 The cloud.gov Incident Response Guide identifies notification to parties exposed to unauthorized information of their obligations for handling that information among the long-term remediation steps to be recorded by the Incident Commander.
 
 See IR-9 (4).
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/IR-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

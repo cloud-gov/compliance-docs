@@ -1,11 +1,11 @@
 # Identification and authentication policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 5, _Policy on Technical Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Access Control (AC)
-* Audit and Accountability (AU)
-* Identification and Authentication (IA)
-* System and Communications Protection (SC)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * IA-1 policy control
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * IA family
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -19,7 +19,7 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
 
@@ -32,3 +32,12 @@ See IA-2, IA-2(1), IA-2(2), IA-2(3), IA-2(5), IA-2(8), IA-2(11), IA-2(12), IA-3,
 As a result of implementing easy integration with customer enterprise identity systems, cloud.gov helps agencies centrally manage identities and supports the use of PIV-card enabled systems, if applicable.
 
 IA-8, IA-8(1), IA-8(2), IA-8(3), IA-8(4).
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/IA-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

@@ -2,9 +2,21 @@
 
 This repository documents 18F security policies and procedures, which for example are used by the cloud.gov product team.
 
-For cloud.gov compliance documentation, see: https://github.com/18F/cg-compliance
+For cloud.gov compliance documentation, see: https://github.com/cloud-gov/cg-compliance
 
 This is a public repository following [18F's Open Source Policy](https://github.com/18F/open-source-policy/blob/master/policy.md). See our [LICENSE.md](LICENSE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for additional information.
+
+To generate PDFs of all the Markdown file, install `pandoc` (e.g. 
+`brew install pandoc`) , then:
+
+```shell
+for markdown  in *Policy.md
+do
+  pdf=$(echo $markdown | sed -e 's/md/pdf/')
+  echo == converting $markdown to $pdf ==
+  pandoc $markdown -s -o $pdf
+done
+```
 
 ## Public domain
 

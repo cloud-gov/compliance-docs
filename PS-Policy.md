@@ -1,18 +1,15 @@
 # Personnel security
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * PS-1, PS-7
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * PS-1, PS-2, PS-3, PS-4, PS-5, PS-6, PS-7, PS-8 PS-9
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * PS-7
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page..
 
 ## Purpose
 
@@ -24,7 +21,7 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 ## Policy overlay
 
-For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/18F/compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 ## Procedures
 
@@ -55,7 +52,7 @@ See PS-7.
 
 Whenever Cloud Operations, or any other team or individual, discovers that any GSA, 18F, or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
 
-The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["post-mortem"](https://github.com/18F/cg-postmortems) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
+The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["post-mortem"](https://github.com/cloud-gov/cg-postmortems) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
 
 The Authorizing Official is responsible for reviewing the report and is solely responsible for recommending actions to the individual's direct supervisor. If the Authorizing Official is satisfied by the remediations purposed, and the time-lines for implementing the remediations, the Authorizing Official may allow the System Owner to re-enable the individual's access to the information system. Regardless if access is re-enabled, the Authorizing Official must provide a recommendation on further sanctions or action.
 
@@ -76,3 +73,11 @@ If the individual in question is part of a professional services or support cont
 
 See PS-8 and PS-4.
 
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/PS-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
