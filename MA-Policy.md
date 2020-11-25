@@ -1,16 +1,11 @@
 # Maintenance
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * MA-1
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * MA-2, MA-3, MA-5, MA-6
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -29,3 +24,13 @@ For information on roles and responsibilities, management commitment, coordinati
 ## Procedures
 
 Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/cloud-gov/cg-compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/18F/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
+
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/MA-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

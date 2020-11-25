@@ -1,16 +1,13 @@
 # Configuration management
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * CM-1, CM-8
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-8, CM-9, 
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * CM-2, CM-3, CM-8, CM-10, CM-11
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -45,3 +42,12 @@ See CM-2, CM-2(2), CM-2(3), CM-6(1).
 Cloud Operations works with relevant stakeholders, decision-makers, and GSA Information Security to determine any necessary changes, and their impacts, to the configuration of the system. All changes to the configuration of the system are tracked both in GitHub and AWS CloudTrail. Only the System Owner and Cloud Operations are allowed to make configuration changes, and all changes are made to reasonably ensure the configurations require the least amount of functionality necessary.
 
 See CM-3, CM-4, CM-5, CM-5(1), CM-5(5), CM-7, CM-8, CM-8(1)
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/CM-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

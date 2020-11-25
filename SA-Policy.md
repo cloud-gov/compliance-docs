@@ -1,12 +1,13 @@
 # System and services acquisition
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 3, _Policy on Management Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Certification, Accreditation, and Security Assessments (CA)
-* Planning (PL)
-* Program Management (PM)
-* Risk Assessment (RA)
-* System and Services Acquisition (SA)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * SA-1, SA-2, SA-5, SA-9, SA-11, SA-12, SA-14
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * SA-3, SA-4, SA-8, SA-9, SA-10, SA-11, SA-12, SA-14, SA-15, SA-16, SA-17, SA-21
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * SA-4, SA-9, SA-18
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -103,3 +104,13 @@ See SA-11 (1).
 cloud.gov commonly incorporates open source code where the author cannot be held responsible for dynamic scanning. In such cases, 18F takes on responsibility for dynamic scanning. Nessus is the primary tool used for performing dynamic analysis.
 
 See SA-11 (8).
+
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/SA-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

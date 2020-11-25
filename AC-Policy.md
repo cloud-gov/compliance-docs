@@ -1,11 +1,13 @@
 # Access control policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy for Protect Function_, 5, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Access Control (AC)
-* Audit and Accountability (AU)
-* Identification and Authentication (IA)
-* System and Communications Protection (SC)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * AC-1, AC-4, AC-20
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * AC family controls
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * AC-2, AC-4, AC-25
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -48,4 +50,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2016-10: Initial version for authorization
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
-* 2020-11: Update links to GitHub and GSA policies, add version history
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

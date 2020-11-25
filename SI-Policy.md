@@ -1,18 +1,17 @@
 # System and information integrity policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * SI-1, SI-2, SI-4, SI-5
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * SI-2, SI-4, SI-7, SI-12, SI-13, SI-14, SI-16, SI-17
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * SI-3, SI-4, SI-8
+* Chapter 6, _Policy for Respond Function_, which covers:
+  * SI-4, SI-5
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page..
 
 ## Purpose
 
@@ -66,3 +65,13 @@ All user input submitted via web forms is sanitized to prevent it being interpre
 See SI-10.
 PagerDuty sends cloud.gov alerts only to a limited set of cloud.gov team members who have privileged access to cloud.gov components (System Owner, Program Manager, Cloud Operations team members). This PagerDuty configuration is the responsibility of the Program Manager, who may delegate this to Cloud Operations team members.
 See SI-11.
+
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/SI-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

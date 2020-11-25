@@ -1,16 +1,12 @@
 # Security awareness and training policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 4, _Policy on Operational Controls_, which covers:
 
-* Awareness and Training (AT)
-* Configuration Management (CM)
-* Contingency Planning (CP)
-* Incident Response (IR)
-* Maintenance (MA)
-* Media Protection (MP)
-* Physical and Environmental Protection (PE)
-* Personnel Security (PS)
-* System and Information Integrity (SI)
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * AT-1 policy control
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * AT family implementation controls
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -37,3 +33,12 @@ The cloud.gov Program Manager ensures that Cloud Operations staff with significa
 Whenever a new person joins the Cloud Operations team, the cloud.gov Program Manager assigns the team member a GitHub issue documenting a checklist of required training materials. The same process is applied to each team member annually as if they were a new team member.
 
 See AT-3, AT-4.
+
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/AT-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history

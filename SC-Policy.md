@@ -1,11 +1,13 @@
 # Systems and communications protection
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) Chapter 5, _Policy on Technical Controls_, which covers:
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
 
-* Access Control (AC)
-* Audit and Accountability (AU)
-* Identification and Authentication (IA)
-* System and Communications Protection (SC)
+* Chapter 3, _Policy for Identify Function_, which covers:
+  * SC-1, SC-6
+* Chapter 4, _Policy for Protect Function_, which covers:
+  * SC-2, SC-3, SC-4, SC-5, SC-7, SC-8, SC-11, SC-12, SC-13, SC-15, SC-16, SC-17, SC-19, SC-20, SC-21, SC-22, SC-23, SC-24, SC-25, SC-28, SC-29, SC-31, SC-32, SC-36, SC-37, SC-38, SC-40, SC-41, SC-43, SC-49
+* Chapter 5, _Policy for Detect Function_, which covers:
+  * SA-5, SA-7, SA-44
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
@@ -79,3 +81,12 @@ EBS volumes, RDS, and S3 buckets are encrypted at rest. All system information i
 See SC-28, SC-28 (1).
 cloud.gov maintains a separate execution domain for each executing process by running within its own self-contained environment (a Garden container).
 See SC-39.
+ 
+# Version history
+
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/SC-Policy.md
+
+* 2016-10: Initial version for authorization
+* 2017-09: Security policy link updates
+* 2019-12: Update links to GSA security policy
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
