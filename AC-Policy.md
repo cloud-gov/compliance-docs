@@ -1,6 +1,6 @@
 # Access control policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf)
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * AC-1, AC-4, AC-20
@@ -31,7 +31,7 @@ Successfully issuing a PIV card allows internal users to obtain credentials for 
 
 See AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
 
-cloud.gov's customers gain access to the system in a similar fashion. The Client UAA Server can integrate with any enterprise identity system that supports the Security Assertion Markup Language (SAML) standard. Cloud Operations and the customer follow a simple procedure (https://cloud.gov/docs/ops/federated-identity/) in order to complete the integration.
+cloud.gov's customers gain access to the system in a similar fashion. The Client UAA Server can integrate with any enterprise identity system that supports the Security Assertion Markup Language (SAML) standard. Cloud Operations and the customer follow a simple procedure (https://cloud.gov/docs/ops/federated-identity/) in order to complete the integration. For cloud.gov customers using the cloud.gov identity provider, customer accounts will be deactivated after not logging into the system after 90 days.
 
 See AC-2(9), AC-2(10), AC-21.
 
