@@ -33,6 +33,12 @@ As a result of implementing easy integration with customer enterprise identity s
 
 IA-8, IA-8(1), IA-8(2), IA-8(3), IA-8(4).
 
+IA-5(7): cloud.gov ensures that unencrypted static authenticators are not embedded in applications or access scripts or stored on function keys by requiring all team members who use Git to managed code to:
+
+  a. install [caulking](https://github.com/cloud-gov/caulking) during their onboarding process
+  b. demonstrate compliance during their onboarding
+  c. demonstrate compliance quarterly during biweekly architecture review
+
 # Version history
 
 Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/IA-Policy.md
@@ -41,3 +47,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Add IA-5(7) caulking procedure
