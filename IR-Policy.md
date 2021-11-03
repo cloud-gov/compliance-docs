@@ -15,6 +15,8 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 
 The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
 
+The cloud.gov system also relies on GSA IT Incident Response, and they in turn follow GSA's [IT Security Procedural Guide:  Incident Response (IR) CIO-IT Security-01-02](https://www.gsa.gov/cdnstatic/Incident_Response_%5BCIO_IT_Security_01-02_Rev_18%5D_03-26-2021docx.pdf), dated 2021-03-26. Future updates should be located with other [IT Security Procedural Guides](https://www.gsa.gov/policy-regulations/policy/information-integrity-and-access/it-security-procedural-guides).
+
 ## Purpose
 
 Iteratively reduce both the number of incidents as a proportion of our total information system inventory, and reduce the mean time to recover from incidents.
@@ -101,3 +103,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Add GSA IR procedural guide.
