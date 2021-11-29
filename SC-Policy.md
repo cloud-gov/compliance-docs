@@ -49,9 +49,9 @@ See SC-7, SC-7 (3), SC-7 (18).
 
 The Cloud Operations team establishes a traffic flow policy for each managed interface. These deny network traffic by default and only allow defined exceptions.
 
-The Cloud Operations team protects the confidentiality and integrity of the information being transmitted across each interface by enforcing TLS for HTTP based connections and SSH system access. This includes all public interfaces and applications. All traffic handled by cloud.gov is routed through an AWS ELB where the HTTPS connection is terminated.
+The Cloud Operations team protects the confidentiality and integrity of the information being transmitted across each interface by enforcing TLS for HTTP based connections and SSH system access. This includes all public interfaces and applications. All traffic handled by cloud.gov is routed through an AWS ELB where the HTTPS connection is terminated. All traffic to AWS ALBs to tenant applications is over HTTPS. All traffic from tenant applications to cloud.gov-provided services is over TLS. 
 
-If the team needs an exception to these traffic flow policies, the team reviews exceptions to the traffic flow policy at least annually and removes exceptions that are no longer supported by an explicit mission/business need.
+If the team needs an exception to these traffic flow policies, the team reviews exceptions to the traffic flow policy at least annually and removes exceptions that are no longer supported by an explicit mission/business need. Exception requests should have an expected duration, and be discontinued after that period.
 
 See SC-7 (4), SC-7 (5), SC-8, SC-8 (1), SC-13, SC-23.
 
@@ -89,4 +89,5 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2016-10: Initial version for authorization
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
-* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history; Clarify SC-7(4) policies
+
