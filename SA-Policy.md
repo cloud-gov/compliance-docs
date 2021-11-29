@@ -94,18 +94,25 @@ A security assessment plan is created by the FedRAMP Accredited Third Party Asse
 See SA-11.
 
 
-For code developed by GSA/TTS, Cloud Operations ensures that a language-appropriate tool is scanning code for common errors before our deployment system attempts to release code.
+For code developed by GSA/TTS, Cloud Operations ensures that a
+language-appropriate tool is scanning code for common errors before
+our deployment system attempts to release code.  Cloud Operations
+and any other relevant internal teams are also automatically notified
+of any findings.
 
-Cloud Operations and any other relevant internal teams are also automatically notified of any vulnerabilities.
-
-Most code managed by cloud.gov are yaml configurations that are not well-suited to standard code analysis, 
+Most code managed by cloud.gov are yaml configurations that are not
+well-suited to standard code analysis, 
 
 All developer code must be scanned for potential secret leaks before any Git
 commit. See IA-5 (7) for details.
 
-All code is continuously scanned for potentially vulnerable depencides using GitHub Dependabot
+All code is continuously scanned for potentially vulnerable depencides
+using GitHub Dependabot
 
-Where additional scanning for known vulnerabilities on code dependencies is relevant, Cloud Operations is also working on ensuring additional automated scanning tools will run. This work is in progress and will complete in FY2022.
+Where additional scanning for known vulnerabilities on code
+dependencies is relevant, Cloud Operations is also working on
+ensuring additional automated scanning tools will run. This work
+is in progress and will complete in FY2022.
 
 See SA-11 (1).
 
@@ -122,3 +129,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Clarify SA-11, code scanning
