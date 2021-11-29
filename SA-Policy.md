@@ -93,11 +93,19 @@ A security assessment plan is created by the FedRAMP Accredited Third Party Asse
 
 See SA-11.
 
-For code developed by 18F, Cloud Operations ensures Code Climate, at minimum, is actively monitoring each code repository master branch, and performs a new scan of the code whenever the branch is changed.
 
-The result of each scan is automatically documented within the Code Climate service itself. Cloud Operations and any other relevant internal teams are also automatically notified of any vulnerabilities.
+For code developed by GSA/TTS, Cloud Operations ensures that a language-appropriate tool is scanning code for common errors before our deployment system attempts to release code.
 
-Where additional scanning for known vulnerabilities on code dependencies is relevant, Cloud Operations is also working on ensuring additional automated scanning tools will run. This work is in progress and will complete before the system’s full Authority to Operate is issued.
+Cloud Operations and any other relevant internal teams are also automatically notified of any vulnerabilities.
+
+Most code managed by cloud.gov are yaml configurations that are not well-suited to standard code analysis, 
+
+All developer code must be scanned for potential secret leaks before any Git
+commit. See IA-5 (7) for details.
+
+All code is continuously scanned for potentially vulnerable depencides using GitHub Dependabot
+
+Where additional scanning for known vulnerabilities on code dependencies is relevant, Cloud Operations is also working on ensuring additional automated scanning tools will run. This work is in progress and will complete in FY2022.
 
 See SA-11 (1).
 
