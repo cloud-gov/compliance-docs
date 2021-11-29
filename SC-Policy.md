@@ -101,5 +101,7 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2016-10: Initial version for authorization
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
-* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history; Clarify SC-7(4), SC-13 policies, add CredHub, remove Comodo
+* 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Clarify SC-7(4), SC-13 policies, add CredHub, remove Comodo
+
 
