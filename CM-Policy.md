@@ -35,7 +35,7 @@ See CM-9.
 
 Cloud Operations first provisions the initial infrastructure tool, Concourse (a continuous integration pipelining tool), into the desired "infrastructure as a service" account, using this [procedure](https://github.com/cloud-gov/cg-provision). Concourse then ensures that all configurations of further automated deployments are controlled, whether they are the result of running Terraform or BOSH.
 
-Cloud Operations encodes cloud.gov's infrastructure into a set of [Terraform](https://www.terraform.io) configuration files. Terraform files are checked into [18F's cloud.gov GitHub repositories](https://github.com/18F?utf8=%E2%9C%93&query=cg), and local git repositories, in order to ensure distributed version control and availability of the code.
+Cloud Operations encodes cloud.gov's infrastructure into a set of [Terraform](https://www.terraform.io) configuration files. Terraform files are checked into the [cloud.gov GitHub repositories](https://github.com/cloud-gov), and local git repositories, in order to ensure distributed version control and availability of the code.
 
 See CM-2, CM-2(2), CM-2(3), CM-6(1).
 
@@ -51,4 +51,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
-* 2021-11: Reviewed by @pburkholder, no changes
+* 2021-11: Correct GitHub to link to cloud-gov org

@@ -43,7 +43,7 @@ See SI-2, SI-2 (2), SI-2 (3).
 
 cloud.gov employs tools at information system entry and exit points to detect and eradicate malicious code with real-time scans, with virus definitions updated hourly. These send alerts to the Cloud Operations team if malicious code is detected. The Cloud Operations team follows the [Security Incident Response Guide](https://cloud.gov/docs/ops/security-ir/) upon detection of any potential security incident.
 
-All 18F-developed open source code that is used in the cloud.gov system is scanned using static analysis tools. When anyone proposes a change to the code (a pull request), the static analysis tool automatically runs and displays results.
+All GSA TTS-developed open source code that is used in the cloud.gov system is scanned using static analysis tools. When anyone proposes a change to the code (a pull request), the static analysis tool automatically runs and displays results.
 
 See SI-3, SI-3 (1), SC-3 (2), SC-3 (7).
 
@@ -75,3 +75,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Correct org name to GSA TTS
