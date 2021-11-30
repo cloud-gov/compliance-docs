@@ -52,7 +52,7 @@ See PS-7.
 
 Whenever Cloud Operations, or any other team or individual, discovers that any GSA, 18F, or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
 
-The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["post-mortem"](https://github.com/cloud-gov/cg-postmortems) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
+The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["incident retrospective"](https://drive.google.com/drive/folders/0B58iDAWKmw_BSEtqcUFFQ041MHc) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
 
 The Authorizing Official is responsible for reviewing the report and is solely responsible for recommending actions to the individual's direct supervisor. If the Authorizing Official is satisfied by the remediations purposed, and the time-lines for implementing the remediations, the Authorizing Official may allow the System Owner to re-enable the individual's access to the information system. Regardless if access is re-enabled, the Authorizing Official must provide a recommendation on further sanctions or action.
 
@@ -81,3 +81,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Rename post-mortem to inc. retro, and link to Google Drive.
