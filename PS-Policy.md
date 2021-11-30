@@ -25,7 +25,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-For personnel categorization, position risk designation is assigned by the GSA Office of Human Resources Management (OHRM), 18F Talent, and 18F Supervisors. We follow the methodology prescribed in the Office of Personnel Management’s (OPM) Federal Investigations Notice, No. 10-06. Risk designations are re-categorized whenever responsibilities change, the impact level of the system or the information in it changes, or at least once every three years.
+For personnel categorization, position risk designation is assigned by the GSA Office of Human Resources Management (OHRM), GSA TTS Talent, and GSA TTS Supervisors. We follow the methodology prescribed in the Office of Personnel Management’s (OPM) Federal Investigations Notice, No. 10-06. Risk designations are re-categorized whenever responsibilities change, the impact level of the system or the information in it changes, or at least once every three years.
 
 See PS-2.
 
@@ -33,15 +33,15 @@ For personnel screening, we use the OPM process.
 
 See PS-3.
 
-Review of ongoing operational need for current logical and physical access by individuals are initiated and facilitated by the System Owner and Program Manager. The cloud.gov System Owner or Program Manager modifies permissions granted to individuals to correspond any changes in the individual requirements. 18F notifies the cloud.gov System Owner or Program Manager within 5 days of a formal transfer action. The cloud.gov System Owner or Program Manager initiates the revoking process within the same day of an individual being transferred outside of the team.
+Review of ongoing operational need for current logical and physical access by individuals are initiated and facilitated by the System Owner and Program Manager. The cloud.gov System Owner or Program Manager modifies permissions granted to individuals to correspond any changes in the individual requirements. GSA TTS notifies the cloud.gov System Owner or Program Manager within 5 days of a formal transfer action. The cloud.gov System Owner or Program Manager initiates the revoking process within the same day of an individual being transferred outside of the team.
 
 Retrieval of all information system-related property which includes HDPS-12 cards, authentication tokens, mobile devices, laptops, etc. is a common control provided by GSA. cloud.gov revokes privileged access if an individual is reassigned or transferred outside of the team.
 
 See PS-5.
 
-Since cloud.gov is provided by a federal agency to other agencies, 18F/GSA signs standard US Treasury forms (7600A and 7600B) to create inter-agency agreements (IAAs) that allow other agencies to access and use cloud.gov. The 18F Agreements team develops agreement text with the GSA Office of General Counsel (OGC) to ensure the boilerplate of all cloud.gov access agreements meet all legal, regulatory, policy, and Executive Order requirements.
+Since cloud.gov is provided by a federal agency to other agencies, GSA TTS signs standard US Treasury forms (7600A and 7600B) to create inter-agency agreements (IAAs) that allow other agencies to access and use cloud.gov. The GSA TTS Agreements team develops agreement text with the GSA Office of General Counsel (OGC) to ensure the boilerplate of all cloud.gov access agreements meet all legal, regulatory, policy, and Executive Order requirements.
 
-The System Owner reviews all access agreements at least yearly, or upon request from 18F Agreements, GSA Information Security, or OGC. 18F/GSA requires that all agencies have an active, signed, and fully-funded agreement to maintain access and use of the system.
+The System Owner reviews all access agreements at least yearly, or upon request from GSA TTS Agreements, GSA Information Security, or OGC. GSA TTS requires that all agencies have an active, signed, and fully-funded agreement to maintain access and use of the system.
 
 See PS-6.
 
@@ -50,7 +50,7 @@ GSA enforces the same requirements on contractors that it does on staff, and con
 See PS-7.
 
 
-Whenever Cloud Operations, or any other team or individual, discovers that any GSA, 18F, or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
+Whenever Cloud Operations, or any other team or individual, discovers that any GSA, TTS or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
 
 The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["incident retrospective"](https://drive.google.com/drive/folders/0B58iDAWKmw_BSEtqcUFFQ041MHc) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
 
@@ -81,4 +81,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
-* 2021-11: Rename post-mortem to inc. retro, and link to Google Drive.
+* 2021-11: Rename post-mortem to inc. retro, and link to Google Drive, Fix org name
