@@ -33,7 +33,7 @@ Initial security categorization is a collaborative and inter-disciplinary activi
 
 See RA-2, RA-3.
 
-Cloud Operations and GSA Information Security work together to scan all of relevant portions of the cloud.gov stack. This includes dynamic scanning of any controls the cloud.gov team is responsible for inside of AWS GovCloud, the operating system baseline of AWS EC2 instances, Cloud Foundry modules, 18F built modules, or any other open source software the team has instantiated within the environment to support cloud.gov. Static code analysis is also performed on the 18F built modules.
+Cloud Operations and GSA Information Security work together to scan all of relevant portions of the cloud.gov stack. This includes dynamic scanning of any controls the cloud.gov team is responsible for inside of AWS GovCloud, the operating system baseline of AWS EC2 instances, Cloud Foundry modules, GSA TTS built modules, or any other open source software the team has instantiated within the environment to support cloud.gov. Static code analysis is also performed on the GSA TTS built modules.
 
 Note that _customers_ of cloud.gov are responsible for conducting static code analysis on the baseline of the applications they are deploying into cloud.gov containers.
 
@@ -50,3 +50,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Correct to using GSA TTS as organization name

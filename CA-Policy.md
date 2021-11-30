@@ -27,15 +27,19 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-As a cloud service provider that is also part of the General Services Agency (GSA), a federal agency, 18F ensures cloud.gov invests in comprehensive risk management assessments.
+As a cloud service provider that is also part of the General Services Agency (GSA), a federal agency, GSA TTS ensures cloud.gov invests in comprehensive risk management assessments.
 
-The main assessment procedures used are the [Federal Risk and Authorization Management Program (FedRAMP)](https://www.fedramp.gov/). Further, 18F engages an [accredited third-party assessment organization](https://www.a2la.org/accreditation/fedramp) (3PAO) to provide an independent review of the cloud.gov system and organizational operations.
+The main assessment procedures used are the [Federal Risk and Authorization Management Program (FedRAMP)](https://www.fedramp.gov/). Further, GSA TTS engages an [accredited third-party assessment organization](https://www.a2la.org/accreditation/fedramp) (3PAO) to provide an independent review of the cloud.gov system and organizational operations.
 
-Assessments of 18F operations are performed in tandem with vulnerability scanning, malicious user testing, insider threat assessments, and other tests regularly conducted by the following teams: the cloud.gov team, TTS Technology Portfolio, GSA Information Security, and a 3PAO. The system is also under continuous monitoring from cloud.gov's Cloud Operations team.
+Assessments of cloud.gov operations are performed in tandem with vulnerability scanning, malicious user testing, insider threat assessments, and other tests regularly conducted by the following teams: the cloud.gov team, TTS Technology Portfolio, GSA Information Security, and a 3PAO. The system is also under continuous monitoring from cloud.gov's Cloud Operations team.
 
-18F takes any results seriously, and it implements remediations as soon as possible. Plans of action and milestones (POAMs) are maintained to ensure any findings are resolved, compensated for, or accepted as an operational requirement.
+GSA TTS takes any results seriously, and it remediates issues as soon as possible. Plans of action and milestones (POA&Ms) are maintained to ensure any findings are resolved, compensated for, or accepted as an operational requirement.
 
 See CA-2, CA-2(1), CA-2(2), CA-2(3), CA-5, CA-7, CA-7(1), CA-8, CA-8(1).
+
+The cloud.gov system does not establish any direct connections to external system. Network connections are on a deny-all, permit-by-exception basis. 
+
+See CA-3, CA-3(3), CA-3(5)
 
 The FedRAMP JAB through the program management office (PMO) is the Authorizing Official (AO) for cloud.gov.
 
@@ -49,3 +53,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Fix "remediations", clarify no direct connect, permit-by-exception

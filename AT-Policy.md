@@ -32,6 +32,8 @@ The cloud.gov Program Manager ensures that Cloud Operations staff with significa
 
 Whenever a new person joins the Cloud Operations team, the cloud.gov Program Manager assigns the team member a GitHub issue documenting a checklist of required training materials. The same process is applied to each team member annually as if they were a new team member.
 
+Training records for GSA-mandated training are kept for at least one year, cloud-gov specific records are kept for at least five years.
+
 See AT-3, AT-4.
 
 # Version history
@@ -42,3 +44,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: State retention policy for training records

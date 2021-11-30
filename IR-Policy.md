@@ -31,7 +31,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at 18F.
+The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at GSA TTS.
 
 The cloud.gov team onboarding checklist (https://github.com/cloud-gov/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
 
@@ -44,13 +44,13 @@ See IR-2.
 
 The cloud.gov team, as directed by the Program Manager, creates test plans and exercises in accordance to NIST 800-61, and presents these to the cloud.gov Authorizing Official for their approval.
 
-cloud.gov tests its incident response capabilities with an annual table top exercise. The test takes the form of a teleconference (GSA Google Hangout) meeting where a security specialist (such as the Program Manager, a Cloud Operations team member, or another security specialist from 18F) guides the Cloud Operations team through a role-playing exercise with a simulated potential security incident. The team takes notes throughout the test, and afterward the team discusses the test and identifies weaknesses to fix with additional training or process improvements. The team files and tracks improvements with GitHub issues.
+cloud.gov tests its incident response capabilities with an annual table top exercise. The test takes the form of a teleconference (GSA Google Hangout) meeting where a security specialist (such as the Program Manager, a Cloud Operations team member, or another security specialist from GSA TTS) guides the Cloud Operations team through a role-playing exercise with a simulated potential security incident. The team takes notes throughout the test, and afterward the team discusses the test and identifies weaknesses to fix with additional training or process improvements. The team files and tracks improvements with GitHub issues.
 
 See IR-3, IR-3 (2).
 
 cloud.gov implements automated processes to detect and analyze malicious activity within the platform. If these processes detect malicious activity, they automatically report the activity to the Cloud Operations team.
 
-cloud.gov has an Incident Response Guide (https://docs.cloud.gov/ops/security-ir/) that documents the procedures that staff should take in the case of an incident, as required by the 18F and GSA Incident Response Policy.
+cloud.gov has an Incident Response Guide (https://docs.cloud.gov/ops/security-ir/) that documents the procedures that staff should take in the case of an incident, as required by the GSA TTS and GSA Incident Response Policy.
 
 See IR-4, IR-5, IR-6.
 
@@ -68,7 +68,7 @@ cloud.gov customers can subscribe to StatusPage to automatically receive alerts 
 
 See IR-7, IR-7 (1).
 
-As part of 18F, the cloud.gov team has direct and cooperative relationships with the Infrastructure team and the GSA Information Security team.
+As part of GSA TTS, the cloud.gov team has direct and cooperative relationships with the Infrastructure team and the GSA Information Security team.
 Within GSA Information Security, the cloud.gov team also works directly with its assigned ISSO, whose responsibility during incident response events facilitates cooperative relationships between cloud.gov’s incident response capability and external providers of information system protection capability.
 
 GSA Information Security has direct relationships with other providers of federal incident response capability, inclusive of US-CERT.
@@ -85,7 +85,7 @@ See IR-8.
 
 The cloud.gov Incident Response directs cloud.gov team members to watch out for and immediately report any potential security incident, which includes reporting suspected information spills (such as sensitive or classified information in the wrong places). In the event of a suspected information spill, cloud.gov team members follow the reporting process in the cloud.gov Incident Response Guide.
 
-The 18F Open Source Policy practices guide (which cloud.gov follows as part of 18F) at https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information includes a reminder that spilled classified information must be reported via the response process.
+The GSA TTS handbook [section on protecting sensitive information](https://handbook.tts.gsa.gov/general-information-and-resources/sensitive-information/) includes a reminder that spilled (or leaked/exposed) sensitive information must be reported via the response process.
 
 The System Owner, Program Manager, and Cloud Operations team members have primary responsibility for implementing the actual response to security incidents, including technical measures. GSA Information Security is responsible for assisting the cloud.gov team in responding to security incidents.
 

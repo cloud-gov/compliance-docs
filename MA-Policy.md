@@ -23,7 +23,7 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/cloud-gov/cg-compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/18F/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
+Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/cloud-gov/cg-compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/cloud-gov/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
 
 
 # Version history
@@ -34,3 +34,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Fix one link to cloud-gov GitHub

@@ -25,15 +25,13 @@ For information on roles and responsibilities, management commitment, coordinati
 
 ## Procedures
 
-The cloud.gov program uses two-week planning sprints. Before each sprint, work is prioritized, inclusive of security needs.
-
-18F is part of the Technology Transformation Service (TTS) within GSA; cloud.gov and 18F coordinate with TTS and GSA leadership to appropriately plan for cloud.gov’s budget and staffing needs.
+The cloud.gov program uses two-week planning sprints. Before each sprint, work is prioritized, inclusive of security needs. The cloud.gov CSP is part of the Technology Transformation Service (TTS) within GSA; cloud.gov coordinates with TTS and GSA leadership to appropriately plan for cloud.gov’s budget and staffing needs.
 
 cloud.gov has also been filed and registered as a major IT investment through the Electronic Capital Planning Investment Control (eCPIC) process with the Office of Management and Budget. As such, it is required to file reports on spending/budget with OMB. These reports include a breakout of spending on cloud.gov’s security analysis.
 
 See SA-2.
 
-18F practices a Scrumban process when developing new features or fixing existing issues, including security fixes and enhancements for cloud.gov.  Each feature or issue is assigned to a card in the system, where it goes through a process of being identified, prioritized, explored, delivered, and finally demonstrated. Each card is reviewed by the team as a whole throughout its lifecycle to identify any security risks or concerns, which are recorded on the card as "acceptance criteria" that must be addressed before development is complete.
+cloud.gov practices a Scrumban process when developing new features or fixing existing issues, including security fixes and enhancements for cloud.gov.  Each feature or issue is assigned to a card in the system, where it goes through a process of being identified, prioritized, explored, delivered, and finally demonstrated. Each card is reviewed by the team as a whole throughout its lifecycle to identify any security risks or concerns, which are recorded on the card as "acceptance criteria" that must be addressed before development is complete.
 
 Once development is complete, a team member submits the code to the version control system as a "pull request", where at least one other team member further reviews it before merging it into the code base.  New features are deployed into our staging area where they undergo further security review and stakeholder acceptance testing, as well as automated acceptance tests.
 The System Owner is responsible for ensuring appropriate staffing for security needs. The Cloud Operations team implements, configures, and maintains security controls.
@@ -55,7 +53,7 @@ cloud.gov itself does not accept personal identity verification (PIV) cards. Cus
 See SA-4 (10).
 
 Cloud Operations always obtains complete documentation, including administrator and user documentation, for any technology that is used within cloud.gov. The maintenance of administrator- and user- facing documentation, in the form of version-controlled changes in a code repository or our documentation repository, is an assumed requirement for all changes. Currently, cloud.gov only uses technology whose documentation can be shared publicly.
-18F values transparency and collaboration. All documentation for technologies used by cloud.gov is either linked to directly from https://docs.cloud.gov, or is shared broadly within GSA via Google Apps for Government.
+GSA TTS values transparency and collaboration. All documentation for technologies used by cloud.gov is either linked to directly from https://docs.cloud.gov, or is shared broadly within GSA via Google Apps for Government.
 
 See SA-5.
 
@@ -67,17 +65,17 @@ cloud.gov applies security best practices, including but not limited to:
 4.	Implementing role-based access controls, applying and enforcing permissions to isolate user to their space.  Baseline configurations settings are reviewed on a continual basis to comply with federal mandates and compliance standards.
 5.	Documenting changes to the baseline configuration in GitHub for review. Part of this process includes a thorough security analysis of the proposed change prior to the configuration change being implemented on the operational system.
 6.	Deploying with every application a standard set of tools for security and monitoring of each application to identify security issues.
-For more details please refer to the 18F Configuration Management Policy and security controls CM-2, CM-3, and CM-6.
+For more details please refer to the cloud.gov Configuration Management Policy and security controls CM-2, CM-3, and CM-6.
 
 See SA-8.
 
 The Authorizing Official is ultimately accountable for ensuring oversight and compliance in the use of external information systems, and reviews the addition of any external information system with the System Owner and GSA Information Security. The Authorizing Official also accepts the risk of operating any external information system that has not been assessed to a FedRAMP Security Controls Baseline.
 The Authorizing Official, System Owner, and GSA Information Security work together to ensure external information systems meet this control where applicable. See the GSA IT Standards Profile and the GSA IT Information Security Policy for additional information.
-18F uses its own monitoring program, or FedRAMP Continuous Monitoring program for external services.
+cloud.gov uses its own monitoring program, or FedRAMP Continuous Monitoring program for external services.
 
 See SA-9.
 
-18F always conducts risk assessments for all technologies and services. See the risk assessment (RA) procedures for details. If a planned change includes integrating a new external service (a service outside the cloud.gov FedRAMP authorization boundary) or changing an external service configuration/usage in a way that may have a security/compliance impact, the cloud.gov Authorizing Official is advised and asked to approve the plan.
+cloud.gov always conducts risk assessments for all technologies and services. See the risk assessment (RA) procedures for details. If a planned change includes integrating a new external service (a service outside the cloud.gov FedRAMP authorization boundary) or changing an external service configuration/usage in a way that may have a security/compliance impact, the cloud.gov Authorizing Official is advised and asked to approve the plan.
 
 See SA-9 (1).
 
@@ -116,7 +114,7 @@ is in progress and will complete in FY2022.
 
 See SA-11 (1).
 
-cloud.gov commonly incorporates open source code where the author cannot be held responsible for dynamic scanning. In such cases, 18F takes on responsibility for dynamic scanning. Nessus is the primary tool used for performing dynamic analysis.
+cloud.gov commonly incorporates open source code where the author cannot be held responsible for dynamic scanning. In such cases, cloud.gov takes on responsibility for dynamic scanning. Nessus is the primary tool used for performing dynamic analysis.
 
 See SA-11 (8).
 
@@ -129,4 +127,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
-* 2021-11: Clarify SA-11, code scanning
+* 2021-11: Clarify SA-11, code scanning, fix references to 18F

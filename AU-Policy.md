@@ -38,7 +38,7 @@ All applications will partially inherit some of the ELK stack auditing functions
 Audit logs will be made available to client organizations and for mutual support in response to security breaches, system and user access, incident reporting and continuous monitoring.  Cloud Operations will generate and distribute audit reports, provide dashboard access for audited events, and send audit log data to SIEM and log analysis systems as needed.
 The cloud.gov Program Manager has established processes for regularly reviewing audit log information, and reporting security issues if discovered. Reviews will occur at a minimum of weekly and are integrated with processes for incident response, in order to ensure standardization and cross-functional collaboration. All alerts are investigated.
 
-cloud.gov uses CloudTrail, CloudWatch, and Riemann to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. In addition, the cloud.gov team employs PagerDuty as an automated mechanism to immediately alert security personnel of inappropriate or unusual activities that have security implications.
+cloud.gov uses CloudTrail, CloudWatch, Prometheus, and Grafana to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. In addition, the cloud.gov team employs PagerDuty as an automated mechanism to immediately alert security personnel of inappropriate or unusual activities that have security implications.
 As a result, all information within the system is available for audit and available for after the fact investigations.
 
 cloud.gov provides an audit trail that shows all actions that an operator has taken with the platform. For users, cloud.gov records an audit trail of all relevant API invocations of an application.
@@ -51,7 +51,7 @@ Cloud Operations updates the defined auditable events on a quarterly basis or wh
 
 See AU-2(3).
 
-CloudTrail, CloudWatch, Snort, Tripwire, Clam AV, and Riemann collect, monitor, and maintain audit logs for both AWS and cloud.gov.
+CloudTrail, CloudWatch, Snort, Tripwire, Clam AV, Prometheus and Grafana collect, monitor, and maintain audit logs for both AWS and cloud.gov.
 
 The events monitored include but are not limited to successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events for both AWS and cloud.gov. These events are tracked for all administrator activity, authentication checks, authorization checks, data deletions, data access, data changes, and permission changes.
 
@@ -80,7 +80,7 @@ The Cloud Operations team acts on findings that result from its regular audit pr
 
 See AU-6.
 
-cloud.gov uses the automated mechanisms CloudTrail, CloudWatch, and Riemann to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. Riemann receives data from multiple sources and makes that data available for regular auditing.
+cloud.gov uses the automated mechanisms CloudTrail, CloudWatch, and Grafana to integrate audit monitoring, analysis and reporting into an overall process for investigation and response to suspicious activities. Prometheus receives data from multiple sources and makes that data available for regular auditing.
 
 Cloud Operations employs automated CloudWatch logs to collect and track metrics to monitor in real time infrastructure log data and resources.
 
@@ -92,10 +92,10 @@ See AU-6(3).
 
 CloudWatch Logs provides on-demand audit review for any actions taken on or in the AWS environment.
 
-Riemann, InfluxDB, and Grafana provide the capability to evaluate any action taken on the cloud.gov layer.
+Prometheus and Grafana provide the capability to evaluate any action taken on the cloud.gov layer.
 
 The ELK stack, which captures logs related to applications hosted on top of cloud.gov, has the capability to provide audit reduction, analysis, and report generation capability. Specifically, Kibana has the capacity to build search queries on numerous criteria regarding application logs, and produce reports and exports.
-CloudWatch Logs, Riemann, InfluxDB, Grafana, and ELK do not alter the original content or time ordering of audit records. All audit files can be viewed in their raw and JSON standard formats.
+CloudWatch Logs, Prometheus, Grafana, and ELK do not alter the original content or time ordering of audit records. All audit files can be viewed in their raw and JSON standard formats.
 
 See AU-7.
 
@@ -127,7 +127,7 @@ Audit logs are kept according to NARA and GSA retention standards to provide sup
 
 See AU-11.
 
-cloud.gov provides comprehensive audit record generation capability for all components: CloudWatch Logs for AWS, metrics.fr.cloud.gov for cloud.gov metrics, and logs.fr.cloud.gov for applications on cloud.gov.
+cloud.gov provides comprehensive audit record generation capability for all components: CloudWatch Logs for AWS, grafana.fr.cloud.gov for cloud.gov metrics, and logs.fr.cloud.gov for applications on cloud.gov.
 
 Cloud Operations are responsible for maintaining the configuration that enforces the audit settings.
 Cloud Operations team members select which auditable events are to be audited by specific components of cloud.gov where audit capability is deployed.
@@ -142,3 +142,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2017-09: Security policy link updates
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
+* 2021-11: Update to reference Grafana and Prometheus instead of obsoleted components
