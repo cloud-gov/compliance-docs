@@ -23,6 +23,9 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
 ## Procedures
 
 The cloud.gov program uses two-week planning sprints. Before each sprint, work is prioritized, inclusive of security needs. The cloud.gov CSP is part of the Technology Transformation Service (TTS) within GSA; cloud.gov coordinates with TTS and GSA leadership to appropriately plan for cloud.gov’s budget and staffing needs.

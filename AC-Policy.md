@@ -1,4 +1,3 @@
-<!-- changequote(`{{', `}}') -->
 # Access control policy
 
 See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf)
@@ -24,6 +23,7 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
+<!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
 
