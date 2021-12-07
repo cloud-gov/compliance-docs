@@ -23,7 +23,10 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Procedures
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
+# Procedures
 
 For personnel categorization, position risk designation is assigned by the GSA Office of Human Resources Management (OHRM), GSA TTS Talent, and GSA TTS Supervisors. We follow the methodology prescribed in the Office of Personnel Management’s (OPM) Federal Investigations Notice, No. 10-06. Risk designations are re-categorized whenever responsibilities change, the impact level of the system or the information in it changes, or at least once every three years.
 

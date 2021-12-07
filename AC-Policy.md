@@ -23,7 +23,11 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Procedures
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
+
+# Procedures
 
 cloud.gov's access control procedures starts with an offer letter to an individual from the GSA Office of Human Resources Management (OHRM). As the individual is on-boarded to the federal government, their personal information is recorded, biometrics are taken, preexisting identification is validated, and finally a personal identity verification (PIV) card is issued in full accordance with  Homeland Security Presidential Directive 12 (HSPD-12).
 
@@ -53,4 +57,3 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-02: Customer accounts will be deactivated after not logging into the system after 90 days.
 * 2021-11: Reviewed by @pburkholder, no changes
-

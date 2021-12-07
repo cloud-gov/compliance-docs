@@ -23,7 +23,10 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Procedures
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
+# Procedures
 
 cloud.gov's specific configuration management procedures are packaged with the actual code of the cloud.gov system. Below is an overview of our procedures along with citations to controls and relevant GitHub repositories.
 

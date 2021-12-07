@@ -29,7 +29,10 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Procedures
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
+# Procedures
 
 The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at GSA TTS.
 

@@ -23,7 +23,10 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-## Procedures
+<!-- changequote(`{{', `}}') -->
+include({{TTS-Common-Control-Policy.md}})
+---
+# Procedures
 
 Using the most current FedRAMP SSP template, 18F developed, and GSA TTS maintains, a system security plan which includes the cloud.gov PaaS and encompasses the cloud.gov applications. The security plan is developed in accordance with NIST Special Publication 800-18 R1 Guide of Developing Federal Information System Security Plans, as well as FedRAMP guidance. The System Security Plan:
 
