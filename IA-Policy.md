@@ -24,7 +24,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 Identity and authentication in cloud.gov is entirely gated by cloud.gov's User Account and Authentication (UAA) Servers and their integration with GSA SecureAuth. Authentication to the underlying Amazon Web Service (AWS) is through the AWS Identity and Access Management (IAM).
 

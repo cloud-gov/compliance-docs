@@ -28,7 +28,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 The cloud.gov team identifies cloud.gov system flaws, tracks and reports them, and corrects them.
 

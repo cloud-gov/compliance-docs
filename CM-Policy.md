@@ -26,7 +26,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 cloud.gov's specific configuration management procedures are packaged with the actual code of the cloud.gov system. Below is an overview of our procedures along with citations to controls and relevant GitHub repositories.
 

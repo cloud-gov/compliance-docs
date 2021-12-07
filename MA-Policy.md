@@ -24,7 +24,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/cloud-gov/cg-compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/cloud-gov/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.
 

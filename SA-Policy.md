@@ -26,7 +26,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 The cloud.gov program uses two-week planning sprints. Before each sprint, work is prioritized, inclusive of security needs. The cloud.gov CSP is part of the Technology Transformation Service (TTS) within GSA; cloud.gov coordinates with TTS and GSA leadership to appropriately plan for cloud.gov’s budget and staffing needs.
 

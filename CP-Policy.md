@@ -31,7 +31,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 See the [cloud.gov Contingency Plan](https://docs.cloud.gov/ops/contingency-plan/).
 

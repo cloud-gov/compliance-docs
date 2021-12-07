@@ -27,7 +27,7 @@ For information on roles and responsibilities, management commitment, coordinati
 include({{TTS-Common-Control-Policy.md}})
 ---
 
-## Procedures
+# Procedures
 
 cloud.gov's access control procedures starts with an offer letter to an individual from the GSA Office of Human Resources Management (OHRM). As the individual is on-boarded to the federal government, their personal information is recorded, biometrics are taken, preexisting identification is validated, and finally a personal identity verification (PIV) card is issued in full accordance with  Homeland Security Presidential Directive 12 (HSPD-12).
 

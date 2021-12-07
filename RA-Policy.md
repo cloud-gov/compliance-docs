@@ -28,7 +28,7 @@ For information on roles and responsibilities, management commitment, coordinati
 <!-- changequote(`{{', `}}') -->
 include({{TTS-Common-Control-Policy.md}})
 ---
-## Procedures
+# Procedures
 
 All GSA teams, being part of a federal agency, follow the risk assessment and management process outlined in [NIST Special Publication (SP) 800-37](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r1.pdf), _Guide for Applying the Risk Management Framework to Federal Information Systems_.
 
