@@ -1,3 +1,4 @@
+<!-- changequote(`{{', `}}') -->
 # Access control policy
 
 See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf)
@@ -22,6 +23,9 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 ## Policy overlay
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
+
+include({{TTS-Common-Control-Policy.md}})
+---
 
 ## Procedures
 
@@ -53,4 +57,3 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-02: Customer accounts will be deactivated after not logging into the system after 90 days.
 * 2021-11: Reviewed by @pburkholder, no changes
-
