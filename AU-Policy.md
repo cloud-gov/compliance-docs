@@ -30,6 +30,24 @@ include({{TTS-Common-Control-Policy.md}})
 ---
 # Procedures
 
+Our audit procedures ensure we gather events to assess our security posture,
+threat assessment, and support post-incident recovery and forensices. At a
+minimum, we audit:
+
+* Account management events;
+* Object access;
+* Policy change;
+* Privilege functions;
+* Process tracking;
+* System events/errors;
+* Administrator activity;
+* Authentication/authorization checks;
+* Data deletions, access, changes, and permission changes;
+* Network flow logs;
+* External network access;
+
+When making system changes we ensure we are auditing events to support these goals. To that end, audit records contain a certain minimum set of data elements in order to support after-the-fact-investigations. Each log file or container contains information sufficient to uniquely identify the logging source and the timestamp of the initial log record. All systems and services that generate log data have defined ownership, such that the responsible group or customer can be identified and contacted if necessary.
+
 Cloud Operations has implemented CloudTrail and CloudWatch for its account and system monitoring of AWS virtual infrastructure. These tools provide visibility into user activity by recording API calls made on an AWS account and its cloud infrastructure. CloudTrail captures and records important information about each API call for the list of auditable events.
 
 cloud.gov provides an audit trail through the BOSH tasks command. This command shows all actions that an operator has taken with the platform. Additionally, operators can redirect Cloud Foundry component logs to a Logstash syslog server using the syslog_daemon_config property in the metron_agent job of cf-release. For end users, cloud.gov records an audit trail of all relevant API invocations of an app. The CLI command cf events returns this information.
