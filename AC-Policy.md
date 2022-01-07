@@ -36,6 +36,15 @@ cloud.gov's access control procedures starts with an offer letter to an individu
 
 Successfully issuing a PIV card allows internal users to obtain credentials for GSA SecureAuth, GSA's enterprise identity system. GSA SecureAuth is used to gate access control to cloud.gov's Operations User Account and Authentication (UAA) Server, which is integrated with GSA SecureAuth. A GSA SecureAuth account also kicks off the On-boarding Checklist (https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md) which ensures the internal user gains proper access and permissions to any systems or tools they need, inclusive of access to Amazon Web Services (AWS). Access to AWS is strictly limited to the System Owner, Cloud Operations, and Cloud Compliance (read-only).
 
+The System Owner (or representative) and a quorum of the Cloud Operations meet on a quarterly
+basis to review and confirm all team accounts meet requirements for compliance
+with account management needs. Typically these meetings occur in March, June,
+September and December. In advance of the meeeting, members of compliance team
+and cloud operations will generate reports of group memberships and role
+assignments. During the meeting, the participants 
+will review memberships and their alignment with current
+job responsibilies, and make changes, or assign issues, to make corrections.
+
 See AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
 
 cloud.gov's customers gain access to the system in a similar fashion. The Client UAA Server can integrate with any enterprise identity system that supports the Security Assertion Markup Language (SAML) standard. Cloud Operations and the customer follow a simple procedure (https://cloud.gov/docs/ops/federated-identity/) in order to complete the integration. For cloud.gov customers using the cloud.gov identity provider, customer accounts will be deactivated after not logging into the system after 90 days.
