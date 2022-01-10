@@ -24,14 +24,28 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
 <!-- changequote(`{{', `}}') -->
-include({{TTS-Common-Control-Policy.md}})
+<!-- 
+include({{TTS-Common-Control-Policy.md}}) 
+--> 
+
 ---
 
 # Procedures
 
 cloud.gov's access control procedures starts with an offer letter to an individual from the GSA Office of Human Resources Management (OHRM). As the individual is on-boarded to the federal government, their personal information is recorded, biometrics are taken, preexisting identification is validated, and finally a personal identity verification (PIV) card is issued in full accordance with  Homeland Security Presidential Directive 12 (HSPD-12).
 
-Successfully issuing a PIV card allows internal users to obtain credentials for GSA SecureAuth, GSA's enterprise identity system. GSA SecureAuth is used to gate access control to cloud.gov's Operations User Account and Authentication (UAA) Server, which is integrated with GSA SecureAuth. A GSA SecureAuth account also kicks off the On-boarding Checklist (https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md) which ensures the internal user gains proper access and permissions to any systems or tools they need, inclusive of access to Amazon Web Services (AWS). Access to AWS is strictly limited to the System Owner, Cloud Operations, and Cloud Compliance (read-only).
+Successfully issuing a PIV card allows internal users to obtain credentials for GSA SecureAuth, GSA's enterprise identity system. GSA SecureAuth is used to gate access control to cloud.gov's Operations User Account and Authentication (UAA) Server, which is integrated with GSA SecureAuth. 
+
+Technical onboarding to cloud.gov is initiated by the cloud.gov Director, Deputy Director, or Program Manager via creation of an Onboarding issue in the cloud.gov issue tracking system. The issue should include the On-boarding Checklist (https://github.com/cloud-gov/product/blob/master/OnboardingChecklist.md) which ensures the internal user gains proper access and permissions to any systems or tools they need, inclusive of access to Amazon Web Services (AWS). Access to AWS is strictly limited to the System Owner, Cloud Operations, and Cloud Compliance (read-only). The Cloud Operations team member assigned to the issue acts on it once the individual has GSA SecureAuth access and a GSA email account.
+
+The System Owner (or representative) and a quorum of the Cloud Operations meet on a quarterly
+basis to review and confirm all team accounts meet requirements for compliance
+with account management needs. Typically these meetings occur in March, June,
+September and December. In advance of the meeeting, members of compliance team
+and cloud operations will generate reports of group memberships and role
+assignments. During the meeting, the participants 
+will review memberships and their alignment with current
+job responsibilies, and make changes, or assign issues, to make corrections.
 
 See AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
 
