@@ -46,6 +46,9 @@ and cloud operations will generate reports of group memberships and role
 assignments. During the meeting, the participants 
 will review memberships and their alignment with current
 job responsibilies, and make changes, or assign issues, to make corrections.
+All team member roles should align with contingency plan roles on the "cloud.gov Team Roster"
+(Google Docs). Should the team size exceed 24, account review will include
+account activity audits to ensure access is still required for job functions.
 
 See AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
 
