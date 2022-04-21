@@ -41,7 +41,7 @@ Technical onboarding to cloud.gov is initiated by the cloud.gov Director, Deputy
 The System Owner (or representative) and a quorum of the Cloud Operations meet on a quarterly
 basis to review and confirm all team accounts meet requirements for compliance
 with account management needs. Typically these meetings occur in March, June,
-September and December. In advance of the meeeting, members of compliance team
+September and December. In advance of the meeting, members of the compliance team
 and cloud operations will generate reports of group memberships and role
 assignments. During the meeting, the participants 
 will review memberships and their alignment with current
@@ -50,19 +50,28 @@ All team member roles should align with contingency plan roles on the "cloud.gov
 (Google Docs). Should the team size exceed 24, account review will include
 account activity audits to ensure access is still required for job functions.
 
-See AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
+When a privileged team member has been absent (leave, illness, detail assignment)
+for more than 30 days, or is scheduled to be absent for 30 or more days, the System Owner
+disables their privilege rights from their accounts (AWS, cloud foundry and GitHub). 
+When the individual returns to work, the System Owner reinsates/restores those account privileges. 
+
+When a privileged team member is terminated, reassigned or loses their need to know rights, 
+the System Owner permanently disables their privilege rights and access from all accounts within 24 hours
+of departure.
+
+See SSP controls AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-2(9), AC-2(10), AC-2(12), AC-3, AC-7, AC-8, AC-11, AC-11(1), AC-12, AC-14, AC-17, AC-17(1), AC-17(2), AC-17(4).
 
 cloud.gov's customers gain access to the system in a similar fashion. The Client UAA Server can integrate with any enterprise identity system that supports the Security Assertion Markup Language (SAML) standard. Cloud Operations and the customer follow a simple procedure (https://cloud.gov/docs/ops/federated-identity/) in order to complete the integration. For cloud.gov customers using the cloud.gov identity provider, customer accounts will be deactivated after not logging into the system after 90 days.
 
-See AC-2(9), AC-2(10), AC-21.
+See SSP controls AC-2(9), AC-2(10), AC-21.
 
 Within cloud.gov, both the permissions of users (whether internal or external) and the logical flow of data through the system is tightly controlled and regulated. Manual movements of data are strictly prohibited. Everything is subject to the virtual network, application, and container restrictions that are instantiated through cloud.gov's adherence to immutable "infrastructure as code."
 
-See AC-4, AC-4(21), AC-17(3), AC-17(9), AC-19, AC-20 (2), and the CM controls.
+See SSP controls AC-4, AC-4(21), AC-17(3), AC-17(9), AC-19, AC-20 (2), and the CM controls.
 
 GSA systems always adhere to the principle of role segmentation and least privilege wherever possible.
 
-See AC-5, AC-6, AC-6(1), AC-6(2), AC-6(5), AC-6(9).
+See SSP controls AC-5, AC-6, AC-6(1), AC-6(2), AC-6(5), AC-6(9).
 
 # Version history
 
@@ -74,3 +83,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-02: Customer accounts will be deactivated after not logging into the system after 90 days.
 * 2021-11: Reviewed by @pburkholder, no changes
+* 2022-04: Include additional guidance for details, leave, extended absences, and terminations
