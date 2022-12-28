@@ -23,10 +23,10 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-<!-- changequote(`{{', `}}') -->
-<!-- 
-include({{TTS-Common-Control-Policy.md}}) 
---> 
+<!-- x
+changequote(`{{', `}}') 
+include({{bq_tts.md}})
+x -->
 
 ---
 
@@ -64,6 +64,14 @@ See SSP controls AC-2, AC-2(1), AC-2(2), AC-2(3), AC-2(4), AC-2(5), AC-2(7), AC-
 cloud.gov's customers gain access to the system in a similar fashion. The Client UAA Server can integrate with any enterprise identity system that supports the Security Assertion Markup Language (SAML) standard. Cloud Operations and the customer follow a simple procedure (https://cloud.gov/docs/ops/federated-identity/) in order to complete the integration. For cloud.gov customers using the cloud.gov identity provider, customer accounts will be deactivated after not logging into the system after 90 days.
 
 See SSP controls AC-2(9), AC-2(10), AC-21.
+
+The cloud.gov infrastructure service does have an emergency fallback
+"breakglass" account with keys that are kept in secure storage. Any
+use of the breakglass credentials generates alerts to Cloud Operations. We
+have code to rotate those credentials on-demand.
+
+See SSP controls AC-2(1)
+
 
 Within cloud.gov, both the permissions of users (whether internal or external) and the logical flow of data through the system is tightly controlled and regulated. Manual movements of data are strictly prohibited. Everything is subject to the virtual network, application, and container restrictions that are instantiated through cloud.gov's adherence to immutable "infrastructure as code."
 

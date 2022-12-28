@@ -25,9 +25,12 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-<!-- changequote(`{{', `}}') -->
+<!-- x
+changequote(`{{', `}}') 
 include({{TTS-Common-Control-Policy.md}})
+x -->
 ---
+
 # Procedures
 
 Our audit procedures ensure we gather events to assess our security posture,
