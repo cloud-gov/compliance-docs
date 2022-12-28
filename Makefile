@@ -17,7 +17,7 @@ bq_tts.md: TTS-Common-Control-Policy.md
 		
 ## clean       : rm PDF and temp files
 clean:
-	rm *pdf *tmp.md tmp*md
+	rm -f *pdf *tmp.md tmp*md bq_tts.md
 
 ## variables   : Print variables.
 .PHONY : variables

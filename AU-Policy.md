@@ -27,9 +27,9 @@ For information on roles and responsibilities, management commitment, coordinati
 
 <!-- x
 changequote(`{{', `}}') 
-include({{TTS-Common-Control-Policy.md}})
+include({{bq_tts.md}})
 x -->
----
+
 
 # Procedures
 

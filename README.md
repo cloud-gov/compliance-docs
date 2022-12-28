@@ -6,12 +6,32 @@ For cloud.gov compliance documentation, see: https://github.com/cloud-gov/cg-com
 
 This is a public repository following [18F's Open Source Policy](https://github.com/18F/open-source-policy/blob/master/policy.md). See our [LICENSE.md](LICENSE.md) and [CONTRIBUTING.md](CONTRIBUTING.md) files for additional information.
 
+## Generating PDFs for assessors
+
 To generate PDFs of all the Markdown files, install `pandoc` (e.g. 
 `brew install pandoc`), and `basictex` (e.g. `brew install basictex`) then:
 
 ```shell
 make all
 ```
+
+## Editing documents
+
+We've created the `...Policy.md` documents to all include the file, `TTS-Common-Control-Policy.md`. 
+As Markdown in GitHub, that's simply a linked URL. To generate PDFs, we use the `m4`
+commands `changequote` and `include` to make an intermediate tmp file, then pipe that
+through to `sed` and `pandoc` to strip the "magic" comments and generate the final
+output.
+
+In short, maintain the following snippet in the input files to include the TTS common
+controls:
+
+    <!-- x
+    changequote(`{{', `}}') 
+    include({{bq_tts.md}})
+    x -->
+
+(The `changequote` is superfluous, we could just do ``include(`bq_tts.md')``)
 
 ## Public domain
 

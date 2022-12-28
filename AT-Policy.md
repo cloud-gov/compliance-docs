@@ -24,9 +24,9 @@ For information on roles and responsibilities, management commitment, coordinati
 
 <!-- x
 changequote(`{{', `}}') 
-include({{TTS-Common-Control-Policy.md}})
+include({{bq_tts.md}})
 x -->
----
+
 # Procedures
 
 If cloud.gov staff fail to comply with GSA security training requirements, their access to all GSA information systems is terminated. This includes access to cloud.gov systems.

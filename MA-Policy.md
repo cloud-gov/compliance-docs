@@ -21,9 +21,11 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-<!-- changequote(`{{', `}}') -->
-include({{TTS-Common-Control-Policy.md}})
----
+<!-- x
+changequote(`{{', `}}') 
+include({{bq_tts.md}})
+x -->
+
 # Procedures
 
 Software maintenance on cloud.gov is accomplished via the procedures of [Configuration Management (CM)](https://github.com/cloud-gov/cg-compliance-docs/blob/master/CM-Policy.md) and [System and Services Acquisition (SA)](https://github.com/cloud-gov/compliance-docs/blob/master/SA-Policy.md). Please see those control families for details.

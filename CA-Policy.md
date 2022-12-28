@@ -27,9 +27,10 @@ For information on roles and responsibilities, management commitment, coordinati
 
 <!-- x
 changequote(`{{', `}}') 
-include({{TTS-Common-Control-Policy.md}})
+include({{bq_tts.md}})
 x -->
----
+
+
 # Procedures
 
 As a cloud service provider that is also part of the General Services Agency (GSA), a federal agency, GSA TTS ensures cloud.gov invests in comprehensive risk management assessments.
