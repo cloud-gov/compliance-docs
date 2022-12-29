@@ -5,15 +5,19 @@ PDF_FILES=$(patsubst %.md, %.pdf, $(MD_FILES))
 .PHONY : all
 all: $(PDF_FILES)
 
+## bq_tts.md   : generate the intermediate blockquoted TTS commmon policy
+bq_tts.md: TTS-Common-Control-Policy.md
+	cat $< | sed -e 's/^/> /' > $@
+
 ## pdf         : generate a single PDF
-%.pdf: %.md
-	m4 -I./ $< > _tmp.md
-	pandoc -o $@ _tmp.md -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=gray
-	rm _tmp.md
+%.pdf: %.md bq_tts.md
+	m4 -I./ $< > tmp_$<
+	cat tmp_$< | sed -e 's/<!-- x//' -e 's/x -->//' | pandoc -o $@ -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=gray
+#	rm tmp_$<.md
 		
 ## clean       : rm PDF and temp files
 clean:
-	rm *pdf *tmp.md
+	rm -f *pdf *tmp.md tmp*md bq_tts.md
 
 ## variables   : Print variables.
 .PHONY : variables

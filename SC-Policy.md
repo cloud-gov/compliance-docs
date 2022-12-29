@@ -23,9 +23,11 @@ See the **_Applicability_** section of the GSA IT Security Policy.
 
 For information on roles and responsibilities, management commitment, coordination among organizational entities, compliance, reviews, and updates please see the [Technology Transformation Service's (TTS) Common Control Policy](https://github.com/cloud-gov/cg-compliance-docs/blob/master/TTS-Common-Control-Policy.md).
 
-<!-- changequote(`{{', `}}') -->
-include({{TTS-Common-Control-Policy.md}})
----
+<!-- x
+changequote(`{{', `}}') 
+include({{bq_tts.md}})
+x -->
+
 # Procedures
 
 Only privileged cloud.gov team roles (such as System Owner and Cloud Operations) have privileged Cloud Foundry API access, granted via User Account and Authentication (UAA) Server group membership. The cloud.gov team manages information system functionality surrounding and supporting the Cloud Foundry components via AWS, GitHub, and Concourse. Users do not get access to these facilities.
