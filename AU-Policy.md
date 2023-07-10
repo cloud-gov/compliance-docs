@@ -1,6 +1,7 @@
 # Audit and accountability management policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1L – GSA IT Security
+Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf)
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * AU-1 policy control
@@ -147,7 +148,38 @@ The System Owner authorizes access to management of audit functionality to only 
 
 See AU-9 (4).
 
-Audit logs are kept according to NARA and GSA retention standards to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements. Our logging systems referenced above retain logs for 180 days online, and for an additional year in an offline system.
+Audit logs are kept according to NARA and GSA retention standards
+to provide support for after-the-fact investigations of security
+incidents and to meet regulatory and organizational information
+retention requirements.
+
+cloud.gov retains logs in accordance with [OMB Memo M-21-31,
+"Improving the Federal Government’s Investigative and Remediation
+Capabilities Related to Cybersecurity
+Incidents"](https://www.whitehouse.gov/wp-content/uploads/2021/08/M-21-31-Improving-the-Federal-Governments-Investigative-and-Remediation-Capabilities-Related-to-Cybersecurity-Incidents.pdf),
+as clarified in December 2022 by CISA in ["Guidance for Implementing
+M-21-31: Improving the Federal Government’s Investigative and
+Remediation
+Capabilities"](https://www.cisa.gov/sites/default/files/2023-02/TLP%20CLEAR%20-%20Guidance%20for%20Implementing%20M-21-31_Improving%20the%20Federal%20Governments%20Investigative%20and%20Remediation%20Capabilities_.pdf)
+
+Our standard practice is to keep all logs readily accessible on-line for 12
+months, and in cold storage for an additional 18 months. AWS CloudWatch Logs
+are kept on-line for 36 months (or 30 months when that option is available).
+
+*Exceptions:* 
+
+Per CISA guidance:
+
+> Q: Can an agency drop events which it deems irrelevant to incident detection or response?
+> A Yes, agencies may filter events they deem irrelevant “before, during, or after a cybersecurity incident." ...
+
+AWS WAF Logs are kept on-line for 6 months.  WAF log retention is
+expensive and has no cold storage option, and when WAH requests
+pass, the full request handling is logged by AWS ALBs, GoRouters
+and other infrastructure elements. Therefore, WAF logs havea limited
+relevancy and a six-month retention period is sufficient for any
+denial of service attack investication.
+
 
 See AU-11.
 
@@ -155,6 +187,9 @@ cloud.gov provides comprehensive audit record generation capability for all comp
 
 Cloud Operations are responsible for maintaining the configuration that enforces the audit settings.
 Cloud Operations team members select which auditable events are to be audited by specific components of cloud.gov where audit capability is deployed.
+
+
+
 
 See AU-12.
 
@@ -167,3 +202,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Update to reference Grafana and Prometheus instead of obsoleted components
+* 2023-07: Update AU-11 guidance for M-21-31 and AWS WAF exception
