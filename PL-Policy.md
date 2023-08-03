@@ -56,9 +56,9 @@ See PL-2 (3).
 
 All GSA TTS staff members are required to sign an acknowledgment indicating that they have read, understand, and agree to abide by the GSA Rules of Behavior, before authorizing access to information and the information system.
 
-cloud.gov documentation provides a public list of Rules of Behavior for all cloud.gov account holders, available under “Using your account responsibly” on this page: https://docs.cloud.gov/getting-started/accounts/
+cloud.gov documentation provides a public list of Rules of Behavior for all cloud.gov account holders, available under “Using your account responsibly” on this page: https://cloud.gov/getting-started/accounts/
 
-When logging into the cloud.gov system, all cloud.gov account holders (internal and external users) are required to agree to the cloud.gov account holder Rules of Behavior. The website (as seen at https://login.fr.cloud.gov/login ) provides a warning with a “Read more details” link, and the detailed description of requirements includes a link to the rules at https://docs.cloud.gov/getting-started/accounts/ ). This is a public page that anyone can view. Users must click “Agree and Continue” before they can log in.
+When logging into the cloud.gov system, all cloud.gov account holders (internal and external users) are required to agree to the cloud.gov account holder Rules of Behavior. The website (as seen at https://login.fr.cloud.gov/login ) provides a warning with a “Read more details” link, and the detailed description of requirements includes a link to the rules at https://cloud.gov/getting-started/accounts/ ). This is a public page that anyone can view. Users must click “Agree and Continue” before they can log in.
 
 See PL-4 and PL-4 (1).
 
