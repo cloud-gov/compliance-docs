@@ -68,7 +68,10 @@ cloud.gov terminates all network connections when sessions end. AWS ELBs are con
 
 See SC-10.
 
-Cloud Operations obtains certificates from our approved provider, Let's Encrypt, to encrypt and verify public connections. The certificates are only stored in the AWS Identity and Access Management server certificate store to be used on Elastic Load Balancers.
+For TLS certificates, cloud.gov only uses certificate authorities that meet
+GSA's requirements in [IT Security Procedural Guide: SSL/TLS Implementation CIO-IT Security-14-69](https://www.gsa.gov/system/files?file=SSL-TLS-Implementation-%5BCIO-IT-Security-14-69-Rev-7%5D-06-12-2023.pdf); 
+currently our certicate authority is [Let's Encrypt](https://letsencrypt.org/)
+Cloud Operations obtains certificates from Let's Encrypt to encrypt and verify public connections. The certificates are stored in the AWS Identity and Access Management server certificate store to be used on Elastic Load Balancers.
 
 Cloud Operations generates internal encryption keys and cryptographic certificates using the latest generally available version of OpenSSL. Cloud Operations encrypts and uploads server certificates and keys as secrets to AWS S3. Local copies of these certificates are deleted permanently. Concourse loads all secrets from either S3 or CredHub, decrypts them, and uploads them to BOSH over an encrypted internal connection. BOSH in turn installs the certificates and keys into the hosts based on each service’s needs.
 
@@ -108,5 +111,6 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Clarify SC-7(4), SC-13 policies, add CredHub, remove Comodo
+* 2023-12: Clarify use of Let's Encrypt
 
 
