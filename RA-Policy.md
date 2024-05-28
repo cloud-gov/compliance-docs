@@ -45,7 +45,7 @@ Note that _customers_ of cloud.gov are responsible for conducting static code an
 
 Access to scanning tools, scan results, and logs is broadly shared amongst the cloud.gov team to ensure a rapid response to any findings. Similarly, on-demand access is granted to the Authorizing Official to aide in any systemic understanding of the system's risk posture.
 
-In some cases Common Vulnerabilities and Exposures (CVEs) found by container scans may be false positives. Exceptions for these CVEs are implemented, and documented, in the [common-pipelines](https://github.com/cloud-gov/common-pipelines/blob/main/container/grype.yaml) repository. To implement an exception the reason for the exception must be documented, and the change must be reviewed and approved by a member of the operations team.
+In some cases Common Vulnerabilities and Exposures (CVEs) found by container scans may be false positives. Exceptions for these CVEs are implemented, and documented, in the [common-pipelines](https://github.com/cloud-gov/common-pipelines/blob/main/container/grype.yaml) repository. To implement an exception the reason for the exception must be documented, and the change must be reviewed and approved by a member of the security team.
 
 See RA-5, RA-5(1), RA-5(2), RA-5(3), RA-5(5), RA-5(6), RA-5(8).
 
