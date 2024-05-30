@@ -34,7 +34,7 @@ cloud.gov's specific configuration management procedures are packaged with the a
 
 ###
 
-The cloud.gov team maintains a [Configuration Management Plan](https://github.com/cloud-gov/cg-site/blob/master/_docs/ops/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system.
+The cloud.gov team maintains a [Configuration Management Plan](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/configuration-management.md) that governs configuration changes. The plan outlines the procedure for to make any and all changes impacting the configuration of the system.
 
 See CM-9.
 
@@ -57,4 +57,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Correct GitHub to link to cloud-gov org
-* 2024-05: Update links to GSA Security Policy
+* 2024-05: Update links to GSA Security Policy and Configuration Management Plan
