@@ -1,6 +1,6 @@
 # System and services acquisition
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1P – GSA IT Security Policy](https://www.gsa.gov/directives/files?file=2024-02%2FCC048589%20Final%20Directive%20CIO%202100.1P%20GSA%20Information%20Technology%20Security%20Policy.pdf) 
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * SA-1, SA-2, SA-5, SA-9, SA-11, SA-12, SA-14
@@ -9,7 +9,7 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 * Chapter 5, _Policy for Detect Function_, which covers:
   * SA-4, SA-9, SA-18
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/policy-regulations/policy/information-technology-policy/gsa-it-security-policies) page.
 
 ## Purpose
 
@@ -58,7 +58,7 @@ cloud.gov itself does not accept personal identity verification (PIV) cards. Cus
 See SA-4 (10).
 
 Cloud Operations always obtains complete documentation, including administrator and user documentation, for any technology that is used within cloud.gov. The maintenance of administrator- and user- facing documentation, in the form of version-controlled changes in a code repository or our documentation repository, is an assumed requirement for all changes. Currently, cloud.gov only uses technology whose documentation can be shared publicly.
-GSA TTS values transparency and collaboration. All documentation for technologies used by cloud.gov is either linked to directly from https://docs.cloud.gov, or is shared broadly within GSA via Google Apps for Government.
+GSA TTS values transparency and collaboration. All documentation for technologies used by cloud.gov is either linked to directly from https://cloud.gov/docs/, or is shared broadly within GSA via Google Apps for Government.
 
 See SA-5.
 
@@ -133,3 +133,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Clarify SA-11, code scanning, fix references to 18F
+* 2024-05: Update links to GSA Security Policy and Cloud.gov documentation
