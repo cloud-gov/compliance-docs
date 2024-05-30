@@ -1,6 +1,6 @@
 # Configuration management
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1P – GSA IT Security Policy](https://www.gsa.gov/directives/files?file=2024-02%2FCC048589%20Final%20Directive%20CIO%202100.1P%20GSA%20Information%20Technology%20Security%20Policy.pdf) 
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * CM-1, CM-8
@@ -9,7 +9,7 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 * Chapter 5, _Policy for Detect Function_, which covers:
   * CM-2, CM-3, CM-8, CM-10, CM-11
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/policy-regulations/policy/information-technology-policy/gsa-it-security-policies) page.
 
 ## Purpose
 
@@ -57,3 +57,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Correct GitHub to link to cloud-gov org
+* 2024-05: Update links to GSA Security Policy
