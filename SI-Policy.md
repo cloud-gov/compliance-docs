@@ -1,6 +1,6 @@
 # System and information integrity policy
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1P – GSA IT Security Policy](https://www.gsa.gov/directives/files?file=2024-02%2FCC048589%20Final%20Directive%20CIO%202100.1P%20GSA%20Information%20Technology%20Security%20Policy.pdf) 
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * SI-1, SI-2, SI-4, SI-5
@@ -11,7 +11,7 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 * Chapter 6, _Policy for Respond Function_, which covers:
   * SI-4, SI-5
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page..
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/policy-regulations/policy/information-technology-policy/gsa-it-security-policies) page.
 
 ## Purpose
 
@@ -46,7 +46,7 @@ cloud.gov keeps all flaw identifications and remediations stored in machine read
 
 See SI-2, SI-2 (2), SI-2 (3).
 
-cloud.gov employs tools at information system entry and exit points to detect and eradicate malicious code with real-time scans, with virus definitions updated hourly. These send alerts to the Cloud Operations team if malicious code is detected. The Cloud Operations team follows the [Security Incident Response Guide](https://cloud.gov/docs/ops/security-ir/) upon detection of any potential security incident.
+cloud.gov employs tools at information system entry and exit points to detect and eradicate malicious code with real-time scans, with virus definitions updated hourly. These send alerts to the Cloud Operations team if malicious code is detected. The Cloud Operations team follows the [Security Incident Response Guide](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md) upon detection of any potential security incident.
 
 All GSA TTS-developed open source code that is used in the cloud.gov system is scanned using static analysis tools. When anyone proposes a change to the code (a pull request), the static analysis tool automatically runs and displays results.
 
@@ -81,3 +81,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Correct org name to GSA TTS
+* 2024-05: Update links to GSA Security Policy and Incident Response Guide
