@@ -1,6 +1,6 @@
 # Personnel security
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1P – GSA IT Security Policy](https://www.gsa.gov/directives/files?file=2024-02%2FCC048589%20Final%20Directive%20CIO%202100.1P%20GSA%20Information%20Technology%20Security%20Policy.pdf) 
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * PS-1, PS-7
@@ -9,7 +9,7 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 * Chapter 5, _Policy for Detect Function_, which covers:
   * PS-7
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page..
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/policy-regulations/policy/information-technology-policy/gsa-it-security-policies) page..
 
 ## Purpose
 
@@ -55,9 +55,9 @@ GSA enforces the same requirements on contractors that it does on staff, and con
 See PS-7.
 
 
-Whenever Cloud Operations, or any other team or individual, discovers that any GSA, TTS or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://docs.cloud.gov/ops/security-ir/) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
+Whenever Cloud Operations, or any other team or individual, discovers that any GSA, TTS or cloud.gov information security policies or procedures have been violated, they must immediately follow the [cloud.gov incident notification procedures (which also notifies GSA Information Security teams)](https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md) and notify the System Owner, information system Authorizing Official, and the individual's direct supervisor via GSA email, separately. All notifications must occur within 24 hours of detecting a policy or procedure violation.
 
-The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["incident retrospective"](https://drive.google.com/drive/folders/0B58iDAWKmw_BSEtqcUFFQ041MHc) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
+The System Owner is responsible for immediately terminating the individual's access to the information system. The System Owner is also responsible for coordinating a cross-divisional ["incident retrospective"](https://drive.google.com/drive/folders/1B_hmrY_pQCaAYfovZQOvSjYGonPoOrES) exercise and report within 5 business days of the incident. All post-mortem reports should include remediations to reduce the chance of, or prevent, similar incidents in the future. The report is sent to the information system's Authorizing Official.
 
 The Authorizing Official is responsible for reviewing the report and is solely responsible for recommending actions to the individual's direct supervisor. If the Authorizing Official is satisfied by the remediations purposed, and the time-lines for implementing the remediations, the Authorizing Official may allow the System Owner to re-enable the individual's access to the information system. Regardless if access is re-enabled, the Authorizing Official must provide a recommendation on further sanctions or action.
 
@@ -70,7 +70,7 @@ Recommendations on sanctions or actions may include one, or many of the below:
 * Formal sanction in the employee's Electronic Official Personnel Folder (eOPF)
 * Termination
 
-The individual's direct supervisor is responsible for concurring or dissenting on any recommendations, and is responsible for implementation and deadlines for ultimate completion of concurred actions. If applicable, the direct supervisor is also responsible for coordinating with GSA's Office of Human Resources Management (OHRM) or GSA's Office of General Counsel. All actions and sanctions will be conducted in accordance with [9751.1 CPO _Maintaining Discipline_](https://insite.gsa.gov/portal/content/523318).
+The individual's direct supervisor is responsible for concurring or dissenting on any recommendations, and is responsible for implementation and deadlines for ultimate completion of concurred actions. If applicable, the direct supervisor is also responsible for coordinating with GSA's Office of Human Resources Management (OHRM) or GSA's Office of General Counsel. All actions and sanctions will be conducted in accordance with [9751.1A HRM _Maintaining Discipline_](https://www.gsa.gov/directives/files?file=2023-07%2FMaintaining%20Discipline%20HRM%2097511A.pdf).
 
 The individual's direct supervisor is also accountable to issue a report to the Authorizing Official on the completion of any actions. If the Authorizing Official is not satisfied by completed actions, either in their quality or the timeliness of their completion, the Authorizing Official can instruct the System Owner to re-terminate the individual's account.
 
@@ -87,3 +87,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Rename post-mortem to inc. retro, and link to Google Drive, Fix org name
+* 2024-05: Update links to GSA Security Policy, Incident Response Checklist, and 9751.1A HRM
