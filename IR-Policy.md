@@ -1,6 +1,6 @@
 # Incident response
 
-See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2100_1L_CHGE_1_CC040905_signed_PDF_version_7-15-2019.pdf) 
+See [CIO 2100.1P – GSA IT Security Policy](https://www.gsa.gov/directives/files?file=2024-02%2FCC048589%20Final%20Directive%20CIO%202100.1P%20GSA%20Information%20Technology%20Security%20Policy.pdf) 
 
 * Chapter 3, _Policy for Identify Function_, which covers:
   * IR-1
@@ -13,9 +13,9 @@ See [CIO 2100.1L – GSA IT Security Policy](https://www.gsa.gov/cdnstatic/CIO_2
 * Chapter 7, _Policy for Recover Function_, which covers:
   * IR-4, IR-8
 
-The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/about-us/organization/office-of-the-chief-information-officer/chief-information-security-officer-ciso/it-security-policies) page.
+The latest version can be found on the [GSA IT Security Policies](https://www.gsa.gov/policy-regulations/policy/information-technology-policy/gsa-it-security-policies) page.
 
-The cloud.gov system also relies on GSA IT Incident Response, and they in turn follow GSA's [IT Security Procedural Guide:  Incident Response (IR) CIO-IT Security-01-02](https://www.gsa.gov/cdnstatic/Incident_Response_%5BCIO_IT_Security_01-02_Rev_18%5D_03-26-2021docx.pdf), dated 2021-03-26. Future updates should be located with other [IT Security Procedural Guides](https://www.gsa.gov/policy-regulations/policy/information-integrity-and-access/it-security-procedural-guides).
+The cloud.gov system also relies on GSA IT Incident Response, and they in turn follow GSA's [IT Security Procedural Guide:  Incident Response (IR) CIO-IT Security-01-02](https://www.gsa.gov/system/files/Incident-Response-%5BCIO-IT-Security-01-02-Rev-19%5D-09-08-2022docx.pdf), dated 2022-09-08. Future updates should be located with other [IT Security Procedural Guides](https://www.gsa.gov/policy-regulations/policy/information-integrity-and-access/it-security-procedural-guides).
 
 ## Purpose
 
@@ -38,9 +38,9 @@ x -->
 
 The cloud.gov Program Manager organizes incident response training sessions, offered to the whole cloud.gov team at least annually, and requires that all Cloud Operations team members take the training. The training may be led by the Program Manager, a Cloud Operations team member, or another security specialist at GSA TTS.
 
-The cloud.gov team onboarding checklist (https://github.com/cloud-gov/cg-product/blob/master/OnboardingChecklist.md) requires that all team members take incident response training within 60 days of joining the team.
+The cloud.gov team onboarding checklist (https://github.com/cloud-gov/product/blob/main/.github/ISSUE_TEMPLATE/onboard-any-team-member.md) requires that all team members take incident response training within 60 days of joining the team.
 
-This training is a meeting reviewing and explaining the cloud.gov IR Guide (https://docs.cloud.gov/ops/security-ir/) and discussing questions and examples. The team takes notes on the training, stored in a Google Doc in the cloud.gov team Google Drive folder. The team records attendance in that document.
+This training is a meeting reviewing and explaining the cloud.gov IR Guide (https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md) and discussing questions and examples. The team takes notes on the training, stored in a Google Doc in the cloud.gov team Google Drive folder. The team records attendance in that document.
 
 If the cloud.gov system changes in a radical way, the Program Manager adapts the incident response training to meet the needs of the new system. The Program Manager then requires Cloud Operations team members to take the training again.
 The Program Manager requires all Cloud Operations team members to take the incident response training at least once a year.
@@ -55,7 +55,7 @@ See IR-3, IR-3 (2).
 
 cloud.gov implements automated processes to detect and analyze malicious activity within the platform. If these processes detect malicious activity, they automatically report the activity to the Cloud Operations team.
 
-cloud.gov has an Incident Response Guide (https://docs.cloud.gov/ops/security-ir/) that documents the procedures that staff should take in the case of an incident, as required by the GSA TTS and GSA Incident Response Policy.
+cloud.gov has an Incident Response Guide (https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md) that documents the procedures that staff should take in the case of an incident, as required by the GSA TTS and GSA Incident Response Policy.
 
 See IR-4, IR-5, IR-6.
 
@@ -67,7 +67,7 @@ See IR-4 (1), IR-6 (1).
 
 As described in the cloud.gov security incident response guide and contingency plan, Cloud Operations can notify customers about incidents and potential incidents using StatusPage (https://cloudgov.statuspage.io/), when this is appropriate for the incident. StatusPage allows customers to subscribe to updates by email or text message.
 
-Customers can report potential incidents (and request support) via Slack or email, as documented at https://docs.cloud.gov/help/. The Security Incident Response guide explains to customers that they should email the cloud.gov support address if they encounter potential security problems (https://docs.cloud.gov/ops/security-ir/).
+Customers can report potential incidents (and request support) via email, as documented at [https://docs.cloud.gov/help/](https://cloud.gov/contact/). The Security Incident Response guide explains to customers that they should email the cloud.gov support address if they encounter potential security problems (https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md).
 
 cloud.gov customers can subscribe to StatusPage to automatically receive alerts about the availability of cloud.gov services.
 
@@ -80,7 +80,7 @@ GSA Information Security has direct relationships with other providers of federa
 
 See IR-7 (2).
 
-The cloud.gov team has developed an Incident Response Guide (https://docs.cloud.gov/ops/security-ir/) to implement incident response capabilities.
+The cloud.gov team has developed an Incident Response Guide (https://github.com/cloud-gov/internal-docs/blob/main/docs/resources/Plans-and-Procedures/security-ir.md) to implement incident response capabilities.
 
 The Incident Response Guide is continually reviewed and updated by the cloud.gov team. In addition, the cloud.gov team updates the IR Guide after it tests the guide, which happens at least annually and after any major system/organizational changes.
 
@@ -109,3 +109,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 * 2019-12: Update links to GSA security policy
 * 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 * 2021-11: Add GSA IR procedural guide.
+* 2024-05: Update links to GSA Security Policy and Incident Response Guide
