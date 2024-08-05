@@ -30,7 +30,7 @@ changequote(`{{', `}}')
 include({{bq_tts.md}})
 x -->
 
-# Procedures
+## Procedures
 
 All GSA teams, being part of a federal agency, follow the risk assessment and management process outlined in [NIST Special Publication (SP) 800-37](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-37r2.pdf), _Risk Management Framework for
 Information Systems and Organizations_.
@@ -51,24 +51,23 @@ See RA-5, RA-5(1), RA-5(2), RA-5(3), RA-5(5), RA-5(6), RA-5(8).
 
 cloud.gov leverages GSA's vulnerability disclosure program to satisfy RA-5(11):
 
-* The program should send us, via cloud-gov-compliance@gsa.gov or
+- The program should send us, via cloud-gov-compliance@gsa.gov or
   cloud-gov-security@gsa.gov, new Bug Bounty findings
-* When receiving a new report, the Assurance team
-  * Ensures it has a proper tracking number from GSA IT
-  * Saves the report as a Google doc in the Google Folder
+- When receiving a new report, the Assurance team
+  - Ensures it has a proper tracking number from GSA IT
+  - Saves the report as a Google doc in the Google Folder
     ["GitHub Supplemental Information"](https://drive.google.com/drive/folders/1QfLClYg5lw-QPSrLKLEtSEI9ITn5wiYd) 
     with the naming convention: `YYYY-MM-DD BBP #NNNNN - short description - product`, e.g.
     `2023-12-07 BBP alert #2247177 - improper access control - Pages`
-  * Creates a GitHub issue for the appropriate team, referencing the document
-* Notifies the team via Slack
+  - Creates a GitHub issue for the appropriate team, referencing the document
+- Notifies the team via Slack
 
 The assurance team should track the issue either as bug (if Low severity) or
 as a finding if Medium or High severity).
 
+## Version history
 
-# Version history
-
-Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/RA-Policy.md
+Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/RA-Policy.md:
 
 - 2016-10: Initial version for authorization
 - 2017-09: Security policy link updates
@@ -76,3 +75,4 @@ Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commit
 - 2020-11: Update links to GitHub and GSA policies, split controls by CSF, add version history
 - 2021-11: Correct to using GSA TTS as organization name
 - 2024-05: Add container scanning and exclusion information, update links
+- 2024-07: Add GSA VDP Policy
