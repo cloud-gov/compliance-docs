@@ -49,6 +49,23 @@ In some cases Common Vulnerabilities and Exposures (CVEs) found by container sca
 
 See RA-5, RA-5(1), RA-5(2), RA-5(3), RA-5(5), RA-5(6), RA-5(8).
 
+cloud.gov leverages GSA's vulnerability disclosure program to satisfy RA-5(11):
+
+* The program should send us, via cloud-gov-compliance@gsa.gov or
+  cloud-gov-security@gsa.gov, new Bug Bounty findings
+* When receiving a new report, the Assurance team
+  * Ensures it has a proper tracking number from GSA IT
+  * Saves the report as a Google doc in the Google Folder
+    ["GitHub Supplemental Information"](https://drive.google.com/drive/folders/1QfLClYg5lw-QPSrLKLEtSEI9ITn5wiYd) 
+    with the naming convention: `YYYY-MM-DD BBP #NNNNN - short description - product`, e.g.
+    `2023-12-07 BBP alert #2247177 - improper access control - Pages`
+  * Creates a GitHub issue for the appropriate team, referencing the document
+* Notifies the team via Slack
+
+The assurance team should track the issue either as bug (if Low severity) or
+as a finding if Medium or High severity).
+
+
 # Version history
 
 Complete version history: https://github.com/cloud-gov/cg-compliance-docs/commits/master/RA-Policy.md
